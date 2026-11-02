@@ -2,7 +2,8 @@
 
 ## Launch blockers (owner)
 - [x] Domain getsnowstreak.app set in `site.json` (2026-11-02).
-- [ ] Create GitHub repo, enable Pages (custom domain getsnowstreak.app, enforce HTTPS), DNS records at registrar.
+- [x] Repo bengin34/getsnowstreak, Pages on main / root, custom domain set (2026-11-02).
+- [ ] Porkbun DNS: replace parking records with GitHub Pages A/AAAA + www CNAME; then enforce HTTPS in Pages settings.
 - [ ] Decide support email (currently support@qrodesk.com, the app's address in `APPS/snowstreak/src/content/links.ts`).
 - [ ] Impressum: German commercial site needs one (§5 DDG). Not shipped; add `/impressum/` with publisher details.
 - [ ] After launch: point App Store Connect privacy/support URLs and the app's `PRIVACY_URL` to the new domain (currently qrodesk.com).
