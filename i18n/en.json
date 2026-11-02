@@ -31,7 +31,12 @@
     "even": "Your pass pays for itself on <b>day {n}</b>.",
     "saved": "{days} days: <b>{cost}</b> per ski day, {saved} saved against day tickets.",
     "short": "{days} days: <b>{cost}</b> per ski day. Day tickets would cost {extra} less. Ski {more} more days to break even.",
-    "bad": "Enter a pass price and a day ticket price."
+    "bad": "Enter a pass price and a day ticket price.",
+    "ride_h": "Ski or snowboard?",
+    "ride_p": "Pick your ride, then scroll down the mountain.",
+    "ride_ski": "Ski",
+    "ride_board": "Snowboard",
+    "ride_skip": "Skip"
   },
   "before_kicker": "Before the season",
   "before_h2": "Six weeks. Three sessions a week. No gym.",

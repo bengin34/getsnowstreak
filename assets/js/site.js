@@ -19,6 +19,36 @@ export function passMath(pass, ticket, days) {
   return { even, cost: pass / days, diff: days * ticket - pass, more: Math.max(0, even - days) };
 }
 
+// Slalom line in a 100x1000 box: n turns, alternating sides, starting top-centre.
+export function slalomPath(n) {
+  let d = 'M50,0';
+  for (let i = 0, step = 1000 / n; i < n; i++) {
+    const y = i * step, x = i % 2 ? 18 : 82;
+    d += ` C${x},${y + step * 0.25} ${x},${y + step * 0.75} 50,${y + step}`;
+  }
+  return d;
+}
+
+// Flat riders facing right; colours from the app palette.
+const RIDERS = {
+  ski: `<svg viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 51 Q30 55 58 54 q4 0 5-3" stroke="#7fb4ff" stroke-width="3"/>
+    <path d="M7 47 Q32 51 57 50 q4 0 5-3" stroke="#7fb4ff" stroke-width="3"/>
+    <path d="M45 30 L30 52" stroke="#c7daf4" stroke-width="1.6"/>
+    <path d="M28 34 L35 42 L31 50 M30 34 L39 41 L37 49" stroke="#1b2a55" stroke-width="6"/>
+    <path d="M29 34 L37 21" stroke="#ff8a3d" stroke-width="10"/>
+    <path d="M37 23 L46 30" stroke="#ff8a3d" stroke-width="5"/>
+    <circle cx="42" cy="14" r="6" fill="#f2f6fb"/><path d="M42 13 h6" stroke="#7fe0f5" stroke-width="3"/>
+  </svg>`,
+  board: `<svg viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6 52 Q32 57 58 52" stroke="#ff8a3d" stroke-width="5"/>
+    <path d="M22 50 L20 41 L32 36 L42 41 L42 50" stroke="#1b2a55" stroke-width="6"/>
+    <path d="M32 36 L32 22" stroke="#7fb4ff" stroke-width="10"/>
+    <path d="M30 24 L18 30 M34 24 L46 21" stroke="#7fb4ff" stroke-width="5"/>
+    <circle cx="33" cy="14" r="6" fill="#f2f6fb"/><path d="M34 13 h6" stroke="#7fe0f5" stroke-width="3"/>
+  </svg>`,
+};
+
 if (typeof document !== 'undefined') {
   const data = document.getElementById('i18n'); // home only; guide pages have none
   const t = data ? JSON.parse(data.textContent) : {};
@@ -103,6 +133,71 @@ if (typeof document !== 'undefined') {
       visible = e.isIntersecting;
       if (visible && !raf) raf = requestAnimationFrame(tick);
     }).observe(canvas);
+  }
+
+  // First visit: pick ski or snowboard; the rider then carves down a slalom lane as the page scrolls
+  const hero = document.querySelector('.hero');
+  if (hero && t.ride_h && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const KEY = 'snowstreak-ride';
+    let stored = null;
+    try { stored = localStorage.getItem(KEY); } catch {}
+    const mount = (ride, drop) => {
+      const lane = document.createElement('div');
+      lane.className = 'ride' + (drop ? ' drop' : '');
+      lane.setAttribute('aria-hidden', 'true');
+      lane.innerHTML = `<svg class="ride-trail" viewBox="0 0 100 1000" preserveAspectRatio="none"><path d="${slalomPath(5)}"/></svg><div class="rider">${RIDERS[ride] || RIDERS.ski}</div>`;
+      document.body.append(lane);
+      const path = lane.querySelector('path'), rider = lane.querySelector('.rider');
+      const len = path.getTotalLength();
+      path.style.strokeDasharray = len;
+      let raf = 0, last = 0;
+      const place = () => {
+        raf = 0;
+        const max = document.documentElement.scrollHeight - innerHeight;
+        const p = max > 0 ? Math.min(1, Math.max(0, scrollY / max)) : 0;
+        const sx = lane.clientWidth / 100, sy = lane.clientHeight / 1000;
+        const a = path.getPointAtLength(p * len), b = path.getPointAtLength(Math.min(len, p * len + 4));
+        const dx = (b.x - a.x) * sx, dy = (b.y - a.y) * sy;
+        const tilt = Math.max(-28, Math.min(28, (Math.atan2(dy, Math.abs(dx) || 1e-3) * 180) / Math.PI - 50));
+        rider.style.transform = `translate(${a.x * sx}px, ${a.y * sy}px) scaleX(${dx < 0 ? -1 : 1}) rotate(${tilt}deg)`;
+        path.style.strokeDashoffset = len - p * len;
+        rider.classList.toggle('carve', Math.abs(scrollY - last) > 2);
+        last = scrollY;
+      };
+      const queue = () => { if (!raf) raf = requestAnimationFrame(place); };
+      addEventListener('scroll', queue, { passive: true });
+      addEventListener('resize', queue);
+      place();
+    };
+    if (stored) mount(stored, false);
+    else {
+      const intro = document.createElement('div');
+      intro.className = 'intro';
+      intro.setAttribute('role', 'dialog');
+      intro.setAttribute('aria-modal', 'true');
+      intro.setAttribute('aria-labelledby', 'intro-h');
+      intro.innerHTML = `<div class="intro-in"><h2 id="intro-h">${t.ride_h}</h2><p>${t.ride_p}</p><div class="intro-picks">
+        <button type="button" data-ride="ski">${RIDERS.ski}<span>${t.ride_ski}</span></button>
+        <button type="button" data-ride="board">${RIDERS.board}<span>${t.ride_board}</span></button>
+        </div><button type="button" class="intro-skip">${t.ride_skip}</button></div>`;
+      document.body.append(intro);
+      document.documentElement.classList.add('intro-open');
+      intro.querySelector('[data-ride]').focus({ preventScroll: true });
+      const close = (ride) => {
+        try { localStorage.setItem(KEY, ride); } catch {}
+        removeEventListener('keydown', esc);
+        intro.querySelector(`[data-ride="${ride}"]`)?.classList.add('picked');
+        intro.classList.add('out');
+        document.documentElement.classList.remove('intro-open');
+        setTimeout(() => { intro.remove(); mount(ride, true); }, 650);
+      };
+      const esc = (e) => { if (e.key === 'Escape') close('ski'); };
+      addEventListener('keydown', esc);
+      intro.addEventListener('click', (e) => {
+        const b = e.target.closest('button');
+        if (b && !intro.classList.contains('out')) close(b.dataset.ride || 'ski');
+      });
+    }
   }
 
   // Close the language menu on outside click
