@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<title>{{page_title}}</title>
+<meta name="description" content="{{page_description}}" />
+<link rel="canonical" href="{{canonical}}" />
+{{hreflang}}
+<meta name="theme-color" content="#070c17" />
+<meta property="og:type" content="{{og_type}}" />
+<meta property="og:site_name" content="SnowStreak" />
+<meta property="og:locale" content="{{og_locale}}" />
+<meta property="og:title" content="{{page_title}}" />
+<meta property="og:description" content="{{page_description}}" />
+<meta property="og:url" content="{{canonical}}" />
+<meta property="og:image" content="{{url}}/assets/img/og.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="apple-itunes-app" content="app-id=6821138329" />
+<link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" />
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png" />
+<link rel="stylesheet" href="/assets/css/site.css" />
+<script type="application/ld+json">{{schema}}</script>
+</head>
+<body class="doc">
+<a class="skip" href="#main">{{skip}}</a>
+<header class="top solid">
+  <div class="wrap top-in">
+    <a class="brand" href="{{home}}"><img src="/assets/img/icon-192.webp" width="32" height="32" alt="" /> SnowStreak</a>
+    <nav class="top-nav" aria-label="Primary"><a href="{{guides_url}}">{{guides_nav}}</a></nav>
+    <details class="langs">
+      <summary title="{{lang_label}}">{{lang_code}}</summary>
+      <ul>{{lang_menu}}</ul>
+    </details>
+    <a class="top-cta" href="{{ios_url}}" rel="noopener">{{cta_ios_short}}</a>
+  </div>
+</header>
+<main id="main" class="wrap narrow prose guide">
+{{main}}
+</main>
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div>
+      <p class="brand"><img src="/assets/img/icon-192.webp" width="28" height="28" alt="" loading="lazy" /> SnowStreak</p>
+      <p>{{foot_tag}}</p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="{{guides_url}}">{{guides_nav}}</a>
+      <a href="/privacy/">{{foot_privacy}}</a>
+      <a href="/support/">{{foot_support}}</a>
+      <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener">{{foot_eula}}</a>
+    </nav>
+  </div>
+  <p class="wrap fine">{{foot_health}}</p>
+</footer>
+<script type="module" src="/assets/js/site.js"></script>
+</body>
+</html>

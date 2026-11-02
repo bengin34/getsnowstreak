@@ -3,7 +3,7 @@
 ## Launch blockers (owner)
 - [x] Domain getsnowstreak.app set in `site.json` (2026-11-02).
 - [x] Repo bengin34/getsnowstreak, Pages on main / root, custom domain set (2026-11-02).
-- [ ] Porkbun DNS: replace parking records with GitHub Pages A/AAAA + www CNAME; then enforce HTTPS in Pages settings.
+- [x] Porkbun DNS → GitHub Pages, cert issued, HTTPS enforced (2026-11-02).
 - [ ] Decide support email (currently support@qrodesk.com, the app's address in `APPS/snowstreak/src/content/links.ts`).
 - [ ] Impressum: German commercial site needs one (§5 DDG). Not shipped; add `/impressum/` with publisher details.
 - [ ] After launch: point App Store Connect privacy/support URLs and the app's `PRIVACY_URL` to the new domain (currently qrodesk.com).
@@ -13,10 +13,12 @@
 ## Next
 - [ ] Localized screens (only en-US raw captures exist; DE/FR/IT/ES pages show English UI).
 - [ ] Search Console + Bing Webmaster after domain; submit sitemap.
-- [ ] Content: pre-season ski workout guides (one per language) → app CTA. Use `ecc:market-research` first.
+- [x] Content: 8 guides x 5 langs (`content/PLAN.md`), hub + cluster, guides index per language, home guides block (2026-11-02).
+- [ ] Guides round 2: more topics (balance exercises, ski warm-up on the slope, beginner first ski trip, how many ski days per season); refresh pass prices each autumn.
 - [ ] Add nl, pl, cs, sv, nb, fi (app supports them).
 
 ## Run log
 | Date | Work | Skills | Notes |
 |---|---|---|---|
 | 2026-11-02 | Initial site: home x5 langs, privacy, support, 404, sitemap, OG | ecc:seo, ecc:frontend-design-direction, ecc:brand-voice | Lighthouse mobile: SEO 100, BP 100, a11y 96 → contrast + label fixed |
+| 2026-11-02 | Guides: build pipeline + 8 topics x 5 langs (40 pages + 5 indexes) via 8 writer subagents | ecc:seo, ecc:market-research, ecc:article-writing, ecc:brand-voice | `--check` clean, 0 broken internal links, mobile 390 no overflow |

@@ -16,13 +16,11 @@
   "cta_ios_short": "Get it on iPhone",
   "android_soon": "Android: coming to Google Play",
   "cta_play": "Get it on Google Play",
-
   "hero_eyebrow": "Ski fitness & season log",
   "hero_h1": "Be ready for the <em>first lift.</em>",
   "hero_lede": "Every season starts the same way: three runs and your legs are done. SnowStreak gives you six weeks of short bodyweight sessions before the first ski day, then logs every day you ski after it.",
   "hero_note": "Free to start. No account. Works offline.",
   "alt_streak": "SnowStreak home screen: 38 days to your first run, 14 of 18 sessions done, a 4-week streak and the next session, Power & endurance, 22 minutes.",
-
   "count_label": "Your first ski day",
   "count_unit": "days to your first run",
   "js": {
@@ -35,7 +33,6 @@
     "short": "{days} days: <b>{cost}</b> per ski day. Day tickets would cost {extra} less. Ski {more} more days to break even.",
     "bad": "Enter a pass price and a day ticket price."
   },
-
   "before_kicker": "Before the season",
   "before_h2": "Six weeks. Three sessions a week. No gym.",
   "before_lede": "Three rotating sessions build the leg strength, knee stability and endurance you need for a full afternoon on the piste.",
@@ -49,11 +46,9 @@
   "before_4_d": "Three sessions in a week keeps it alive, so a rest day never breaks it.",
   "alt_program": "Six-week program screen: Session A Leg strength, Session B Balance & knees, Session C Power & endurance, 17 to 22 minutes each.",
   "alt_session": "Session player: Squat jump with an exercise demo, a 35-second work timer, round 1 of 4, next up Skater hops.",
-
   "flip_kicker": "Season start date",
   "flip_h2": "On day one, the app switches sides.",
   "flip_lede": "Training gives way to your season log. Same app, no setup.",
-
   "season_kicker": "During the season",
   "season_h2": "Log a ski day in one tap. Know what your pass is worth.",
   "season_lede": "Date, resort, conditions, a rating and a note if you want one. SnowStreak does the math on every entry.",
@@ -67,13 +62,11 @@
   "season_4_d": "Every ski day, yours to keep in a spreadsheet.",
   "alt_plan": "Season screen: 14 days skied, €18 per ski day, pass paid off, €255 saved against day tickets.",
   "alt_log": "Last ski days list: Val d'Isère, Méribel, Les Arcs, Tignes and La Plagne with dates, conditions and star ratings.",
-
   "calc_h3": "Is your pass worth it?",
   "calc_pass": "Season pass",
   "calc_ticket": "Day ticket",
   "calc_days": "Days you'll ski",
   "calc_note": "Rough math here. In the app it uses your real days.",
-
   "privacy_kicker": "Private by design",
   "privacy_h2": "Not a GPS tracker.",
   "privacy_1_t": "No account",
@@ -82,31 +75,69 @@
   "privacy_2_d": "Sessions, pass and ski days stay on your device. No background location, no analytics profile.",
   "privacy_3_t": "Works offline",
   "privacy_3_d": "On the mountain, where reception usually doesn't.",
-
   "pricing_kicker": "Pricing",
   "pricing_h2": "Start free. Unlock the full season.",
   "free_t": "Free",
-  "free_items": ["Week 1 of the program", "Weekly streak and countdown", "Your first 5 ski days"],
+  "free_items": [
+    "Week 1 of the program",
+    "Weekly streak and countdown",
+    "Your first 5 ski days"
+  ],
   "premium_t": "Premium",
-  "premium_items": ["Weeks 2 to 6", "Unlimited ski days", "Cost per day and break-even", "Season recap card", "CSV export"],
+  "premium_items": [
+    "Weeks 2 to 6",
+    "Unlimited ski days",
+    "Cost per day and break-even",
+    "Season recap card",
+    "CSV export"
+  ],
   "premium_note": "Yearly plan with a 7-day free trial, or a one-time lifetime purchase. The price for your country is shown in the app before you buy.",
-
   "faq_h2": "Questions",
   "faq": [
-    {"q": "Do I need a gym or any equipment?", "a": "No. Every session is bodyweight only. You need a bit of floor space and a wall for wall sits."},
-    {"q": "Does it work for snowboarders?", "a": "Yes. The sessions train leg strength, knee stability and endurance, which riders need as much as skiers, and the log counts a board day like any other."},
-    {"q": "Does SnowStreak track my runs with GPS?", "a": "No. You log each day yourself in one tap. There is no background location, and the app works fully offline."},
-    {"q": "My first ski day is less than six weeks away. Is it too late?", "a": "No. Start this week. The countdown on the home screen shows how much time you have, and every week of leg work helps on day one."},
-    {"q": "What does Premium cost?", "a": "There is a yearly plan with a 7-day free trial and a one-time lifetime purchase. Prices differ by country and are shown in the app before you buy. You can cancel the yearly plan any time in your App Store settings."},
-    {"q": "Is there an Android version?", "a": "SnowStreak is on iPhone now. The Android version is on its way to Google Play."}
+    {
+      "q": "Do I need a gym or any equipment?",
+      "a": "No. Every session is bodyweight only. You need a bit of floor space and a wall for wall sits."
+    },
+    {
+      "q": "Does it work for snowboarders?",
+      "a": "Yes. The sessions train leg strength, knee stability and endurance, which riders need as much as skiers, and the log counts a board day like any other."
+    },
+    {
+      "q": "Does SnowStreak track my runs with GPS?",
+      "a": "No. You log each day yourself in one tap. There is no background location, and the app works fully offline."
+    },
+    {
+      "q": "My first ski day is less than six weeks away. Is it too late?",
+      "a": "No. Start this week. The countdown on the home screen shows how much time you have, and every week of leg work helps on day one."
+    },
+    {
+      "q": "What does Premium cost?",
+      "a": "There is a yearly plan with a 7-day free trial and a one-time lifetime purchase. Prices differ by country and are shown in the app before you buy. You can cancel the yearly plan any time in your App Store settings."
+    },
+    {
+      "q": "Is there an Android version?",
+      "a": "SnowStreak is on iPhone now. The Android version is on its way to Google Play."
+    }
   ],
-
   "final_h2": "The season is closer than you think.",
   "final_lede": "Six weeks from now, you could be the one asking for one more run.",
-
   "foot_tag": "Pre-season training and a ski day log.",
   "foot_privacy": "Privacy",
   "foot_support": "Support",
   "foot_eula": "Terms of use",
-  "foot_health": "Training tool, not medical advice. Stop if something hurts, and talk to a doctor first if you are coming back from a knee injury."
+  "foot_health": "Training tool, not medical advice. Stop if something hurts, and talk to a doctor first if you are coming back from a knee injury.",
+  "guides_path": "guides",
+  "guides_nav": "Guides",
+  "guides_title": "Ski Fitness Guides: Pre-Season Training & Ski Days",
+  "guides_description": "Guides on pre-season ski training, exercises at home, knee care, sore legs and whether your season pass pays off.",
+  "guides_h1": "Ski fitness guides",
+  "guides_lede": "Short, sourced answers to the questions skiers ask before and during the season.",
+  "guide_updated": "Updated",
+  "guide_sources": "Sources",
+  "guide_more": "Keep reading",
+  "guide_cta_h": "Train for the first lift",
+  "guide_cta_p": "SnowStreak turns this into six weeks of 20-minute sessions on your iPhone, then logs your ski days.",
+  "home_guides_kicker": "Guides",
+  "home_guides_h2": "Read before your first run.",
+  "crumb_home": "Home"
 }

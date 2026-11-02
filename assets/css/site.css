@@ -204,3 +204,25 @@ section { position: relative; padding: clamp(72px, 10vw, 128px) 0; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
 .hero-grid > *, .split > *, .duo > *, .calc > * { min-width: 0; }
+
+/* Guides */
+.guide .crumbs { font-size: .88rem; color: var(--d-muted); }
+.guide .crumbs a { color: var(--d-muted); }
+.guide article > .lede { font-size: 1.2rem; margin-top: .4em; }
+.guide h3 { font-size: 1.35rem; margin-top: 1.4em; }
+.guide li { margin-bottom: .4em; }
+.table-scroll { overflow-x: auto; margin: 1.2em 0; }
+.table-scroll table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+.table-scroll th, .table-scroll td { text-align: left; padding: 10px 12px; border-bottom: 1px solid rgba(11,18,32,.1); vertical-align: top; }
+.guide-cta { margin: 48px 0; padding: 32px; border-radius: 24px; background: linear-gradient(160deg, #121b2c, var(--night)); color: var(--n-text); }
+.guide-cta h2 { margin-top: 0; }
+.guide-cta p { color: var(--n-muted); }
+.guide .sources ol { font-size: .88rem; color: var(--d-muted); padding-left: 1.2em; }
+.guide .sources a { word-break: break-all; }
+.cards { list-style: none; padding: 0; margin: 32px 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 18px; }
+.cards a { display: grid; gap: 8px; height: 100%; padding: 24px; border-radius: 20px; background: #fff; border: 1px solid rgba(11,18,32,.07); color: var(--d-text); text-decoration: none; }
+.cards a:hover { border-color: var(--d-ice); }
+.cards b { font: 700 1.35rem/1.1 var(--display); }
+.cards span { color: var(--d-muted); font-size: .95rem; }
+.guides-home { padding: 90px 0 40px; }
+.guide .more ul { padding-left: 1.2em; }
