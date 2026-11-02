@@ -31,7 +31,12 @@
     "even": "Il tuo skipass si ripaga il <b>giorno {n}</b>.",
     "saved": "{days} giorni: <b>{cost}</b> per giornata, {saved} risparmiati rispetto ai giornalieri.",
     "short": "{days} giorni: <b>{cost}</b> per giornata. I giornalieri costerebbero {extra} in meno. Ancora {more} giorni per andare in pari.",
-    "bad": "Inserisci il prezzo dello stagionale e del giornaliero."
+    "bad": "Inserisci il prezzo dello stagionale e del giornaliero.",
+    "ride_h": "Sci o snowboard?",
+    "ride_p": "Scegli come scendi, poi scorri giù per la montagna.",
+    "ride_ski": "Sci",
+    "ride_board": "Snowboard",
+    "ride_skip": "Salta"
   },
   "before_kicker": "Prima della stagione",
   "before_h2": "Sei settimane. Tre sessioni a settimana. Niente palestra.",

@@ -226,3 +226,51 @@ section { position: relative; padding: clamp(72px, 10vw, 128px) 0; }
 .cards span { color: var(--d-muted); font-size: .95rem; }
 .guides-home { padding: 90px 0 40px; }
 .guide .more ul { padding-left: 1.2em; }
+
+/* Ride: first-visit ski/snowboard pick, then a rider on a scroll-driven slalom lane (JS-injected, home only) */
+.intro-open { overflow: hidden; }
+.intro { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; padding: 24px; color: var(--n-text); text-align: center;
+  background: radial-gradient(120% 80% at 50% 0%, var(--far), var(--night) 70%); animation: intro-in .5s ease-out both; }
+.intro.out { animation: intro-out .65s cubic-bezier(.7,0,.3,1) forwards; }
+.intro h2 { font-size: clamp(2.6rem, 9vw, 4.6rem); animation: rise .6s .1s ease-out both; }
+.intro p { color: var(--n-muted); margin-bottom: 32px; animation: rise .6s .2s ease-out both; }
+.intro-picks { display: flex; gap: 16px; justify-content: center; }
+.intro-picks button { display: grid; justify-items: center; gap: 10px; width: min(42vw, 200px); padding: 22px 12px 18px; border-radius: 24px; cursor: pointer;
+  background: rgba(127,180,255,.07); border: 1px solid var(--n-line); color: inherit; font: 700 1.6rem/1 var(--display); letter-spacing: .02em;
+  transition: transform .2s, border-color .2s, background .2s; animation: rise .6s ease-out both; }
+.intro-picks button:nth-child(1) { animation-delay: .3s; }
+.intro-picks button:nth-child(2) { animation-delay: .4s; }
+.intro-picks button:hover, .intro-picks button:focus-visible { transform: translateY(-4px); border-color: var(--n-ice); background: rgba(127,224,245,.1); }
+.intro-picks svg { width: 100%; max-width: 120px; aspect-ratio: 1; animation: bob 2.4s ease-in-out infinite; }
+.intro-picks button:nth-child(2) svg { animation-delay: -1.2s; }
+.intro-picks .picked { border-color: var(--n-flame); }
+.intro-picks .picked svg { animation: launch .6s cubic-bezier(.5,0,.2,1) forwards; }
+.intro-skip { margin-top: 28px; background: none; border: 0; color: var(--n-muted); font: inherit; font-size: .95rem; text-decoration: underline; cursor: pointer; padding: 8px; }
+@keyframes intro-in { from { opacity: 0; } }
+@keyframes intro-out { to { clip-path: inset(0 0 100% 0); } }
+@keyframes rise { from { opacity: 0; transform: translateY(18px); } }
+@keyframes bob { 50% { transform: translate(4px, -6px) rotate(-4deg); } }
+@keyframes launch { 30% { transform: translate(-10px, -16px) rotate(-10deg); } to { transform: translate(140px, 90px) rotate(18deg); opacity: 0; } }
+.ride { position: fixed; top: 120px; bottom: 24px; right: 0; width: 96px; z-index: 15; pointer-events: none; }
+.ride-trail { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.ride-trail path { fill: none; stroke: var(--n-ice); stroke-width: 3; stroke-linecap: round; opacity: .45; vector-effect: non-scaling-stroke; }
+.rider { position: absolute; left: -26px; top: -46px; width: 52px; height: 52px; will-change: transform; filter: drop-shadow(0 0 1.5px rgba(242,246,251,.9)) drop-shadow(0 4px 6px rgba(7,12,23,.35)); }
+.rider svg { width: 100%; height: 100%; }
+.rider::after { content: ""; position: absolute; left: -4px; bottom: 6px; width: 18px; height: 10px; border-radius: 50%; background: rgba(242,246,251,.85); opacity: 0; transition: opacity .25s; filter: blur(3px); }
+.rider.carve::after { opacity: 1; }
+.ride.drop { animation: drop .7s cubic-bezier(.2,.8,.3,1.2) both; }
+@keyframes drop { from { transform: translateY(-120px); opacity: 0; } }
+@media (max-width: 900px) {
+  .ride { width: 60px; bottom: 96px; }
+  .rider { left: -19px; top: -34px; width: 38px; height: 38px; }
+}
+@media print { .ride, .intro { display: none; } }
+/* Stunt run after the pick */
+.intro.show .intro-in > :not(.intro-skip) { animation: fade-out .35s ease-in forwards; }
+.intro.show .intro-in { position: relative; z-index: 1; align-self: end; }
+.stunt { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; animation: intro-in .4s ease-out both; }
+.stunt-rider { will-change: transform; }
+.stunt-rider svg { overflow: visible; }
+.puff { transform-box: fill-box; transform-origin: center; animation: puff .6s ease-out forwards; }
+@keyframes fade-out { to { opacity: 0; visibility: hidden; } }
+@keyframes puff { from { transform: scale(.3); opacity: .95; } to { transform: scale(1.8, 1.2); opacity: 0; } }

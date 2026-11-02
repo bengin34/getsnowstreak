@@ -31,7 +31,12 @@
     "even": "Dein Skipass hat sich an <b>Tag {n}</b> bezahlt gemacht.",
     "saved": "{days} Tage: <b>{cost}</b> pro Skitag, {saved} gespart gegenüber Tageskarten.",
     "short": "{days} Tage: <b>{cost}</b> pro Skitag. Tageskarten wären {extra} günstiger. Noch {more} Tage bis zum Break-even.",
-    "bad": "Gib einen Skipass-Preis und einen Tageskarten-Preis ein."
+    "bad": "Gib einen Skipass-Preis und einen Tageskarten-Preis ein.",
+    "ride_h": "Ski oder Snowboard?",
+    "ride_p": "Wähl dein Sportgerät und scroll den Berg hinunter.",
+    "ride_ski": "Ski",
+    "ride_board": "Snowboard",
+    "ride_skip": "Überspringen"
   },
   "before_kicker": "Vor der Saison",
   "before_h2": "Sechs Wochen. Drei Einheiten pro Woche. Kein Studio.",

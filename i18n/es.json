@@ -31,7 +31,12 @@
     "even": "Tu forfait se amortiza el <b>día {n}</b>.",
     "saved": "{days} días: <b>{cost}</b> por día de esquí, {saved} ahorrados frente a forfaits de día.",
     "short": "{days} días: <b>{cost}</b> por día de esquí. Los forfaits de día costarían {extra} menos. Esquía {more} días más para amortizarlo.",
-    "bad": "Introduce el precio del forfait de temporada y el del forfait de día."
+    "bad": "Introduce el precio del forfait de temporada y el del forfait de día.",
+    "ride_h": "¿Esquí o snowboard?",
+    "ride_p": "Elige cómo bajas y desliza montaña abajo.",
+    "ride_ski": "Esquí",
+    "ride_board": "Snowboard",
+    "ride_skip": "Saltar"
   },
   "before_kicker": "Antes de la temporada",
   "before_h2": "Seis semanas. Tres sesiones por semana. Sin gimnasio.",
