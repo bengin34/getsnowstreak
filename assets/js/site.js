@@ -20,9 +20,9 @@ export function passMath(pass, ticket, days) {
 }
 
 if (typeof document !== 'undefined') {
-  const t = JSON.parse(document.getElementById('i18n').textContent);
+  const data = document.getElementById('i18n'); // home only; guide pages have none
+  const t = data ? JSON.parse(data.textContent) : {};
   const fmt = (s, o) => s.replace(/\{(\w+)\}/g, (_, k) => o[k]);
-  const money = new Intl.NumberFormat(t.lang, { style: 'currency', currency: t.currency, maximumFractionDigits: 0 });
   const today = new Date();
 
   // Countdown to the first ski day
@@ -50,6 +50,7 @@ if (typeof document !== 'undefined') {
   // Season pass break-even
   const calc = document.getElementById('calc');
   if (calc) {
+    const money = new Intl.NumberFormat(t.lang, { style: 'currency', currency: t.currency, maximumFractionDigits: 0 });
     const num = (id) => parseFloat(document.getElementById(id).value);
     const render = () => {
       const days = Math.round(num('c-days'));

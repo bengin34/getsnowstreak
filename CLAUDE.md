@@ -6,6 +6,7 @@ Static marketing site for the SnowStreak iOS app (`APPS/snowstreak`). Plain HTML
 
 - Edit `site.json` (domain, store URLs, `play_live`, support email), `i18n/<lang>.json` (all copy) or `templates/`.
 - `python3 scripts/build.py` regenerates `index.html`, `<lang>/index.html`, `privacy/`, `support/`, `404.html`, `sitemap.xml`, `robots.txt`, `CNAME`. Never hand-edit generated HTML.
+- Guides: `content/<topic>.json` (schema `content/README.md`, plan `content/PLAN.md`) → `/guides/<slug>/` + `/<lang>/<guides_path>/<slug>/`. `python3 scripts/build.py --check content/<topic>.json` validates one. Guide dirs are wiped and regenerated on every build.
 - Build fails if a language is missing a key that `en.json` has.
 - `node scripts/selftest.mjs` checks countdown + pass break-even math in `assets/js/site.js`.
 - OG image: serve root (`python3 -m http.server`), screenshot `scripts/og.html` at 1200x630 into `assets/img/og.png`.
