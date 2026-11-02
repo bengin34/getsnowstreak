@@ -12,7 +12,7 @@ Static marketing site for the SnowStreak iOS app (`APPS/snowstreak`). Plain HTML
 
 ## Domain
 
-`site.json.url` is a placeholder (`https://snowstreak.app`) until the domain is bought. Change it, rebuild, push. Every canonical, hreflang, sitemap and CNAME follows.
+`site.json.url` is `https://getsnowstreak.app`. To change domain: edit it, rebuild, push. Every canonical, hreflang, sitemap and CNAME follows.
 
 ## Rules
 

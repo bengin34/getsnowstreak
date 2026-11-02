@@ -1,7 +1,8 @@
 # Marketing TODO — SnowStreak web
 
 ## Launch blockers (owner)
-- [ ] Buy domain → set `site.json.url`, rebuild, create GitHub repo, enable Pages, push.
+- [x] Domain getsnowstreak.app set in `site.json` (2026-11-02).
+- [ ] Create GitHub repo, enable Pages (custom domain getsnowstreak.app, enforce HTTPS), DNS records at registrar.
 - [ ] Decide support email (currently support@qrodesk.com, the app's address in `APPS/snowstreak/src/content/links.ts`).
 - [ ] Impressum: German commercial site needs one (§5 DDG). Not shipped; add `/impressum/` with publisher details.
 - [ ] After launch: point App Store Connect privacy/support URLs and the app's `PRIVACY_URL` to the new domain (currently qrodesk.com).
