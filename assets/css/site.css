@@ -265,3 +265,12 @@ section { position: relative; padding: clamp(72px, 10vw, 128px) 0; }
   .rider { left: -19px; top: -34px; width: 38px; height: 38px; }
 }
 @media print { .ride, .intro { display: none; } }
+/* Stunt run after the pick */
+.intro.show .intro-in > :not(.intro-skip) { animation: fade-out .35s ease-in forwards; }
+.intro.show .intro-in { position: relative; z-index: 1; align-self: end; }
+.stunt { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; animation: intro-in .4s ease-out both; }
+.stunt-rider { will-change: transform; }
+.stunt-rider svg { overflow: visible; }
+.puff { transform-box: fill-box; transform-origin: center; animation: puff .6s ease-out forwards; }
+@keyframes fade-out { to { opacity: 0; visibility: hidden; } }
+@keyframes puff { from { transform: scale(.3); opacity: .95; } to { transform: scale(1.8, 1.2); opacity: 0; } }

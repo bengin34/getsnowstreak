@@ -29,6 +29,63 @@ export function slalomPath(n) {
   return d;
 }
 
+// Intro stunt run in the 1600x900 scene: slides follow the slope, jumps are parabolas with
+// a flip (degrees, negative = backflip) or spins (a 360 drawn as a horizontal scale wave).
+export function stuntFrames(segs, steps = 12) {
+  const duration = segs.reduce((s, g) => s + g.ms, 0);
+  const frames = [], landings = [], xs = [];
+  const deg = (a, b) => (Math.atan2(b[1] - a[1], b[0] - a[0]) * 180) / Math.PI;
+  let t0 = 0, base = 0;
+  segs.forEach((g, i) => {
+    const slope = deg(g.from, g.to), next = segs[i + 1];
+    const out = next && !next.h ? deg(next.from, next.to) : slope;
+    for (let k = i ? 1 : 0; k <= steps; k++) {
+      const u = k / steps;
+      const x = g.from[0] + (g.to[0] - g.from[0]) * u;
+      let y = g.from[1] + (g.to[1] - g.from[1]) * u, r = base + slope, sx = 1;
+      if (g.h) {
+        y -= 4 * g.h * u * (1 - u);
+        r = base + (g.flip || 0) * u + out * u;
+        sx = Math.cos(2 * Math.PI * (g.spins || 0) * u);
+      }
+      // body centre sits 30 units above the feet; keep one transform shape so frames interpolate
+      xs.push(x);
+      frames.push({ offset: (t0 + g.ms * u) / duration, transform: `translate(${x.toFixed(1)}px, ${(y - 30).toFixed(1)}px) rotate(${r.toFixed(1)}deg) scale(${sx.toFixed(3)}, 1)` });
+    }
+    if (g.h) { base += g.flip || 0; landings.push({ t: t0 + g.ms, x: g.to[0], y: g.to[1] }); }
+    t0 += g.ms;
+  });
+  return { frames, duration, landings, xs };
+}
+
+const STUNT = [
+  { from: [-80, 345], to: [230, 355], ms: 550 },
+  { from: [230, 355], to: [560, 415], ms: 800, h: 230, flip: -360 },
+  { from: [560, 415], to: [650, 448], ms: 320 },
+  { from: [650, 448], to: [980, 465], ms: 800, h: 210, spins: 1 },
+  { from: [980, 465], to: [1070, 498], ms: 320 },
+  { from: [1070, 498], to: [1400, 515], ms: 900, h: 270, flip: 360 },
+  { from: [1400, 515], to: [1720, 700], ms: 650 },
+];
+// Peaks under the STUNT path: [top points], base x left/right. Rock body, shaded right flank, jagged snow cap.
+const PEAKS = [
+  [[[-900, 330], [230, 355]], -900, 520],
+  [[[520, 430], [560, 415], [650, 448]], 160, 1020],
+  [[[940, 480], [980, 465], [1070, 498]], 600, 1420],
+  [[[1360, 530], [1400, 515], [1720, 700], [2500, 760]], 1020, 2500],
+];
+function peakSvg([top, l, r]) {
+  const a = top[0], z = top.at(-1), lerpX = (p, bx, y) => p[0] + (bx - p[0]) * ((y - p[1]) / (1800 - p[1]));
+  const y1 = a[1] + 120, y2 = z[1] + 120;
+  const L = [lerpX(a, l, y1), y1], R = [lerpX(z, r, y2), y2];
+  const pts = (ps) => ps.map((p) => p.map(Math.round).join(',')).join(' ');
+  const jag = [0.8, 0.6, 0.4, 0.2].map((f, i) => [R[0] + (L[0] - R[0]) * f, (R[1] + (L[1] - R[1]) * f) + (i % 2 ? 34 : -6)]).reverse();
+  const mid = top[Math.floor(top.length / 2)];
+  return `<polygon points="${pts([[l, 1800], ...top, [r, 1800]])}" fill="#2b4178"/>
+    <polygon points="${pts([mid, ...top.slice(top.indexOf(mid) + 1), [r, 1800], [mid[0] + (r - mid[0]) * 0.35, 1800]])}" fill="#1f3163"/>
+    <polygon points="${pts([L, ...top, R, ...jag])}" fill="#eef4fc"/>`;
+}
+
 // Flat riders facing right; colours from the app palette.
 const RIDERS = {
   ski: `<svg viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -183,19 +240,50 @@ if (typeof document !== 'undefined') {
       document.body.append(intro);
       document.documentElement.classList.add('intro-open');
       intro.querySelector('[data-ride]').focus({ preventScroll: true });
-      const close = (ride) => {
+      let chosen = null, done = false;
+      const finish = () => {
+        if (done) return;
+        done = true;
+        const ride = chosen || 'ski';
         try { localStorage.setItem(KEY, ride); } catch {}
         removeEventListener('keydown', esc);
-        intro.querySelector(`[data-ride="${ride}"]`)?.classList.add('picked');
         intro.classList.add('out');
         document.documentElement.classList.remove('intro-open');
         setTimeout(() => { intro.remove(); mount(ride, true); }, 650);
       };
-      const esc = (e) => { if (e.key === 'Escape') close('ski'); };
+      // Rider jumps three peaks with a backflip, a 360 and a front flip, then the page opens
+      const stunt = () => {
+        const { frames, duration, landings, xs } = stuntFrames(STUNT);
+        // camera: viewBox matches the screen at 900 units tall; pan keeps the rider at 40% across
+        const vw = Math.round((900 * innerWidth) / innerHeight);
+        const cam = (x) => (vw >= 1600 ? (vw - 1600) / 2 : Math.min(0, Math.max(vw - 1600, vw * 0.4 - x)));
+        intro.classList.add('show');
+        intro.querySelector('.intro-in').insertAdjacentHTML('beforebegin', `<svg class="stunt" viewBox="0 0 ${vw} 900" preserveAspectRatio="xMidYMid slice">
+          <circle cx="${vw * 0.78}" cy="170" r="54" fill="#f2f6fb" opacity=".9"/>
+          ${[[140,90],[420,60],[700,140],[910,70],[1480,110],[1080,210],[260,230],[1560,260]].map(([x, y]) => `<circle cx="${(x / 1600) * vw}" cy="${y}" r="2.5" fill="#f2f6fb" opacity=".7"/>`).join('')}
+          <g class="cam"><path d="M-900,620 L-400,420 L0,560 L380,380 L760,540 L1150,360 L1600,520 L2000,400 L2500,560 V1800 H-900Z" fill="#1b2a55"/>
+          ${PEAKS.map(peakSvg).join('')}
+          <g class="stunt-rider">${(RIDERS[chosen] || RIDERS.ski).replace('<svg ', '<svg x="-55" y="-59" width="110" height="110" ')}</g></g>
+        </svg>`);
+        const svg = intro.querySelector('.stunt');
+        const anim = svg.querySelector('.stunt-rider').animate(frames, { duration, fill: 'forwards' });
+        svg.querySelector('.cam').animate(frames.map((f, i) => ({ offset: f.offset, transform: `translateX(${cam(xs[i]).toFixed(1)}px)` })), { duration, fill: 'forwards' });
+        for (const l of landings) setTimeout(() => {
+          if (done) return;
+          svg.querySelector('.stunt-rider').insertAdjacentHTML('beforebegin', `<ellipse class="puff" cx="${l.x}" cy="${l.y}" rx="46" ry="14" fill="#f2f6fb"/>`);
+        }, l.t);
+        anim.finished.then(finish, finish);
+      };
+      const esc = (e) => { if (e.key === 'Escape') finish(); };
       addEventListener('keydown', esc);
       intro.addEventListener('click', (e) => {
         const b = e.target.closest('button');
-        if (b && !intro.classList.contains('out')) close(b.dataset.ride || 'ski');
+        if (!b || done) return;
+        if (!b.dataset.ride || chosen) return finish();
+        chosen = b.dataset.ride;
+        b.classList.add('picked');
+        intro.querySelector('.intro-skip').focus({ preventScroll: true });
+        setTimeout(() => { if (!done) stunt(); }, 450);
       });
     }
   }
