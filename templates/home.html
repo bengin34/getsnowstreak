@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<title>{{title}}</title>
+<meta name="description" content="{{description}}" />
+<link rel="canonical" href="{{canonical}}" />
+{{hreflang}}
+<meta name="theme-color" content="#070c17" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="SnowStreak" />
+<meta property="og:locale" content="{{og_locale}}" />
+<meta property="og:title" content="{{title}}" />
+<meta property="og:description" content="{{description}}" />
+<meta property="og:url" content="{{canonical}}" />
+<meta property="og:image" content="{{url}}/assets/img/og.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="apple-itunes-app" content="app-id=6821138329" />
+<link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" />
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png" />
+<link rel="preload" href="/assets/fonts/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="/assets/img/screens/streak-780.webp" as="image" fetchpriority="high" />
+<link rel="stylesheet" href="/assets/css/site.css" />
+<script type="application/ld+json">{{schema}}</script>
+</head>
+<body>
+<a class="skip" href="#main">{{skip}}</a>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="{{home}}"><img src="/assets/img/icon-192.webp" width="32" height="32" alt="" /> SnowStreak</a>
+    <nav class="top-nav" aria-label="Primary">
+      <a href="#before">{{nav_before}}</a>
+      <a href="#season">{{nav_season}}</a>
+      <a href="#pricing">{{nav_pricing}}</a>
+      <a href="#faq">{{nav_faq}}</a>
+    </nav>
+    <details class="langs">
+      <summary title="{{lang_label}}">{{lang_code}}</summary>
+      <ul>{{lang_menu}}</ul>
+    </details>
+    <a class="top-cta" href="{{ios_url}}" rel="noopener">{{cta_ios_short}}</a>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero night">
+    <canvas class="snow" aria-hidden="true"></canvas>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="kicker">{{hero_eyebrow}}</p>
+        <h1>{{hero_h1}}</h1>
+        <p class="lede">{{hero_lede}}</p>
+        <div class="stores">{{store_buttons}}</div>
+        <p class="note">{{hero_note}}</p>
+
+        <form class="count" id="count" onsubmit="return false">
+          <label for="first-day">{{count_label}}</label>
+          <div class="count-row">
+            <input type="date" id="first-day" />
+            <output for="first-day" class="count-num"><b id="count-days">–</b> <span>{{count_unit}}</span></output>
+          </div>
+          <p class="count-msg" id="count-msg" aria-live="polite"></p>
+        </form>
+      </div>
+      <div class="hero-phone">
+        <div class="halo" aria-hidden="true"></div>
+        <div class="phone">
+          <img src="/assets/img/screens/streak-780.webp" srcset="/assets/img/screens/streak-390.webp 390w, /assets/img/screens/streak-780.webp 780w" sizes="(max-width: 900px) 70vw, 340px" width="390" height="848" fetchpriority="high" alt="{{alt_streak}}" />
+        </div>
+      </div>
+    </div>
+    {{ridges}}
+  </section>
+
+  <section class="before night-deep" id="before">
+    <div class="wrap split">
+      <div>
+        <p class="kicker">{{before_kicker}}</p>
+        <h2>{{before_h2}}</h2>
+        <p class="lede">{{before_lede}}</p>
+        <ol class="points">
+          <li><b>{{before_1_t}}</b><span>{{before_1_d}}</span></li>
+          <li><b>{{before_2_t}}</b><span>{{before_2_d}}</span></li>
+          <li><b>{{before_3_t}}</b><span>{{before_3_d}}</span></li>
+          <li><b>{{before_4_t}}</b><span>{{before_4_d}}</span></li>
+        </ol>
+      </div>
+      <div class="duo">
+        <div class="phone"><img src="/assets/img/screens/program-390.webp" srcset="/assets/img/screens/program-390.webp 390w, /assets/img/screens/program-780.webp 780w" sizes="(max-width: 900px) 44vw, 270px" width="390" height="848" loading="lazy" alt="{{alt_program}}" /></div>
+        <div class="phone"><img src="/assets/img/screens/session-390.webp" srcset="/assets/img/screens/session-390.webp 390w, /assets/img/screens/session-780.webp 780w" sizes="(max-width: 900px) 44vw, 270px" width="390" height="848" loading="lazy" alt="{{alt_session}}" /></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="flip" aria-labelledby="flip-h">
+    <div class="wrap flip-copy">
+      <p class="kicker">{{flip_kicker}}</p>
+      <h2 id="flip-h">{{flip_h2}}</h2>
+      <p class="lede">{{flip_lede}}</p>
+    </div>
+    <div class="sun" aria-hidden="true"></div>
+    {{ridges_day}}
+  </section>
+
+  <section class="season day" id="season">
+    <div class="wrap split rev">
+      <div class="duo">
+        <div class="phone"><img src="/assets/img/screens/plan-390.webp" srcset="/assets/img/screens/plan-390.webp 390w, /assets/img/screens/plan-780.webp 780w" sizes="(max-width: 900px) 44vw, 270px" width="390" height="848" loading="lazy" alt="{{alt_plan}}" /></div>
+        <div class="phone"><img src="/assets/img/screens/log-390.webp" srcset="/assets/img/screens/log-390.webp 390w, /assets/img/screens/log-780.webp 780w" sizes="(max-width: 900px) 44vw, 270px" width="390" height="848" loading="lazy" alt="{{alt_log}}" /></div>
+      </div>
+      <div>
+        <p class="kicker">{{season_kicker}}</p>
+        <h2>{{season_h2}}</h2>
+        <p class="lede">{{season_lede}}</p>
+        <ol class="points">
+          <li><b>{{season_1_t}}</b><span>{{season_1_d}}</span></li>
+          <li><b>{{season_2_t}}</b><span>{{season_2_d}}</span></li>
+          <li><b>{{season_3_t}}</b><span>{{season_3_d}}</span></li>
+          <li><b>{{season_4_t}}</b><span>{{season_4_d}}</span></li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <form class="calc" id="calc" onsubmit="return false">
+        <h3>{{calc_h3}}</h3>
+        <div class="calc-in">
+          <label>{{calc_pass}} <input type="number" inputmode="decimal" min="0" step="1" id="c-pass" value="{{pass_default}}" /></label>
+          <label>{{calc_ticket}} <input type="number" inputmode="decimal" min="0" step="1" id="c-ticket" value="{{ticket_default}}" /></label>
+          <label>{{calc_days}} <input type="number" inputmode="numeric" min="1" max="200" step="1" id="c-days" value="10" /></label>
+        </div>
+        <div class="calc-out" aria-live="polite">
+          <p class="calc-big" id="c-even"></p>
+          <p id="c-line"></p>
+          <div class="track" aria-hidden="true"><i id="c-bar"></i><s id="c-mark"></s></div>
+        </div>
+        <p class="calc-note">{{calc_note}}</p>
+      </form>
+    </div>
+  </section>
+
+  <section class="privacy day-alt">
+    <div class="wrap">
+      <p class="kicker">{{privacy_kicker}}</p>
+      <h2>{{privacy_h2}}</h2>
+      <ul class="trio">
+        <li><b>{{privacy_1_t}}</b><span>{{privacy_1_d}}</span></li>
+        <li><b>{{privacy_2_t}}</b><span>{{privacy_2_d}}</span></li>
+        <li><b>{{privacy_3_t}}</b><span>{{privacy_3_d}}</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="pricing day" id="pricing">
+    <div class="wrap">
+      <p class="kicker">{{pricing_kicker}}</p>
+      <h2>{{pricing_h2}}</h2>
+      <div class="plans">
+        <div class="plan"><h3>{{free_t}}</h3><ul>{{free_list}}</ul></div>
+        <div class="plan pro"><h3>{{premium_t}}</h3><ul>{{premium_list}}</ul><p>{{premium_note}}</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq day-alt" id="faq">
+    <div class="wrap narrow">
+      <h2>{{faq_h2}}</h2>
+      {{faq_html}}
+    </div>
+  </section>
+
+  <section class="final night">
+    {{ridges_top}}
+    <div class="wrap final-in">
+      <h2>{{final_h2}}</h2>
+      <p class="lede">{{final_lede}}</p>
+      <div class="stores">{{store_buttons}}</div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div>
+      <p class="brand"><img src="/assets/img/icon-192.webp" width="28" height="28" alt="" loading="lazy" /> SnowStreak</p>
+      <p>{{foot_tag}}</p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="/privacy/">{{foot_privacy}}</a>
+      <a href="/support/">{{foot_support}}</a>
+      <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener">{{foot_eula}}</a>
+    </nav>
+    <ul class="foot-langs" aria-label="{{lang_label}}">{{lang_menu}}</ul>
+  </div>
+  <p class="wrap fine">{{foot_health}}</p>
+</footer>
+
+<div class="sticky-cta"><a href="{{ios_url}}" rel="noopener">{{cta_ios_short}}</a></div>
+
+<script type="application/json" id="i18n">{{js_json}}</script>
+<script type="module" src="/assets/js/site.js"></script>
+</body>
+</html>
