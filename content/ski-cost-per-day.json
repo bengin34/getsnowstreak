@@ -1,0 +1,51 @@
+{
+  "updated": "2026-11-04",
+  "slugs": {
+    "en": "ski-cost-per-day"
+  },
+  "langs": {
+    "en": {
+      "title": "Ski Cost Per Day: How to Calculate It and Lower It",
+      "description": "Calculate your ski cost per day with one formula, see a worked example and learn which costs fall when you ski more and which do not.",
+      "headline": "Ski cost per day: how to calculate it and how to lower it",
+      "lede": "Ski cost per day is the total you spent on the season divided by the number of days you skied. Add the fixed costs (pass, gear, insurance), add the per-day costs (travel, food, lessons), then divide by your day count. Skiing more days lowers the fixed part; only habits lower the rest.",
+      "body_html": "<p>Ask a skier what skiing costs and you get the price of a pass or a ticket. Ask what a day costs and most cannot say. Cost per day is the number that lets you compare a pass with day tickets, one resort with another or a weekend trip with a week away. It is simple to calculate, and a few honest inputs make it useful.</p>\n\n<h2>The formula</h2>\n<p><strong>Cost per ski day = (fixed costs + per-day costs added up over all days) / number of days skied.</strong></p>\n<p>Fixed costs do not change with the number of days: pass or ticket bundle, season share of gear, servicing, insurance. Per-day costs repeat: fuel or transport, parking, food, rental, lessons. If you want help listing them, <a href=\"guide:ski-season-budget\">ski season budget</a> goes through each category step by step.</p>\n\n<h2>A worked example</h2>\n<p>These numbers are examples. Use your own.</p>\n<div class=\"table-scroll\"><table>\n<thead><tr><th>Item</th><th>Amount</th></tr></thead>\n<tbody>\n<tr><td>Access (pass)</td><td>600</td></tr>\n<tr><td>Gear share, servicing, insurance</td><td>250</td></tr>\n<tr><td>Per-day costs: 40 per day x 15 days</td><td>600</td></tr>\n<tr><td><strong>Total</strong></td><td><strong>1,450</strong></td></tr>\n<tr><td><strong>Cost per day (15 days)</strong></td><td><strong>about 97</strong></td></tr>\n</tbody></table></div>\n<p>Now change only the day count. At 8 days, the total is 600 + 250 + 320 = 1,170, so the cost per day is about 146. At 25 days it is 600 + 250 + 1,000 = 1,850, so about 74. The per-day part stays at 40. The fixed part, 850 in this example, gets spread thinner or thicker.</p>\n\n<h2>What really lowers it</h2>\n<ol>\n<li><strong>Ski more days, if you can do it without adding costs.</strong> Local days often cost the least extra. This is where a pass can make sense; see <a href=\"guide:ski-pass-worth-it\">is a ski pass worth it</a> for the break-even logic.</li>\n<li><strong>Trim the repeated cost.</strong> Packed lunch, shared rides and parking outside the resort save a little every day, so they scale with your day count.</li>\n<li><strong>Buy access at the right time.</strong> Early deals only help if you will use the days. See <a href=\"guide:season-pass-buying-timing\">season pass buying timing</a>.</li>\n<li><strong>Stretch your gear.</strong> Care and servicing extend its life, which lowers the yearly share.</li>\n<li><strong>Stay healthy.</strong> Missing weeks because of an injury is the most expensive way to raise your cost per day. Preparation is cheap by comparison; start with the <a href=\"guide:ski-fitness-plan\">ski fitness plan</a>.</li>\n</ol>\n\n<h2>The trap: skiing more days just to lower the number</h2>\n<p>Cost per day is a useful measure, not a goal in itself. Once you have paid, that money is sunk: it is gone whether or not you go. A study comparing mice, rats and humans found that all three showed sensitivity to irrecoverable investments once they had committed to a choice<sup>[1]</sup>. For a skier this is the voice that says &quot;I paid for the pass, I have to go,&quot; on the morning of a storm when you are tired and ill-prepared.</p>\n<p>The better question for any single day is forward-looking: will this day be worth its extra costs and the effort? The sunk part of the pass should be ignored for that decision. Use cost per day to decide whether to buy next year, not to decide whether to drag yourself out today. Tired skiing is also riskier; <a href=\"guide:ski-afternoon-fatigue-injuries\">ski afternoon fatigue injuries</a> explains why.</p>\n\n<h2>Pass, day tickets or multi-day cards?</h2>\n<p>Compare them with the same formula. For each option, add its price to the same per-day and gear costs, then divide by the days you realistically expect. The cheapest option at 6 days is rarely the cheapest at 20. A pass comes out ahead once your days exceed the break-even point, which is simply the pass price divided by the cost of a day ticket, rounded up. If you hit that number only in your best-case scenario, a flexible option is safer.</p>\n\n<h2>Track real days, not planned days</h2>\n<p>The formula is only as good as its inputs, and the weakest input is your day count. People overestimate how often they will ski. Research on monitoring found that goals about finances were less often checked against past progress than other goals, and that thinking in measurable terms made monitoring more likely<sup>[2]</sup>. So keep numbers. A line per ski day, with its cost, is enough; <a href=\"guide:ski-day-log\">how to keep a ski day log</a> shows a template.</p>\n<p>A meta-analysis of 138 randomized studies with almost 20,000 participants found that monitoring progress toward a goal increased goal attainment, with larger effects when the record was physical or public<sup>[3]</sup>. For money, a record also turns the end-of-season question into arithmetic: add the days, add the costs, divide.</p>\n\n<h2>Compare year over year</h2>\n<p>Once you have one season of data, the next one gets easier. Keep the same categories every year so the totals compare. Look for the biggest change: did the day count rise, or did one trip distort the average? Report the number with and without that trip. A single expensive week can make an otherwise cheap season look costly.</p>\n<p>Use the result to set your next target. <a href=\"guide:ski-season-goals\">Ski season goals</a> shows how to turn a cost-per-day number into a goal.</p>\n\n<h2>Two quick checks before you trust the number</h2>\n<ul>\n<li><strong>Did you include the invisible items?</strong> Insurance, a waxing session, a replacement lens and the share of gear are easy to leave out and can shift the result noticeably.</li>\n<li><strong>Is one trip distorting it?</strong> Calculate it with and without your most expensive week. If the two numbers differ a lot, report both and decide which one answers your question: what does a normal day cost, or what did the whole season cost.</li>\n</ul>\n<p>Cost per day is also not the same as value. A cheap day in flat light with sore legs is worse than a pricier day you remember all year. Keep the rating from your log next to the cost, and you can see both at once.</p>\n\n<p><a href=\"app\">SnowStreak</a> for iPhone calculates cost per day and the break-even day against day tickets from your ski day log. The first five ski days are free; cost per day, break-even and unlimited days are part of premium. It works offline with no account and keeps data on the phone. You can do the same sums in a spreadsheet with one row per day.</p>",
+      "faq": [
+        {
+          "q": "How do I calculate ski cost per day?",
+          "a": "Add everything you spent on the season, fixed and per-day, then divide by the number of days you skied. Use actual days, not planned ones."
+        },
+        {
+          "q": "What is a good cost per ski day?",
+          "a": "There is no universal number; it depends on where you ski and how you travel. Compare your own figure across seasons and against day tickets."
+        },
+        {
+          "q": "Does a season pass lower my cost per day?",
+          "a": "Only if you ski more days than the break-even point, which is the pass price divided by the cost of a day ticket. Below that, day tickets are cheaper."
+        },
+        {
+          "q": "Should I include gear in the calculation?",
+          "a": "Yes, as a yearly share. Divide the price of boots or skis by the seasons you expect to use them."
+        },
+        {
+          "q": "Should I ski more just to lower my cost per day?",
+          "a": "Not when you are tired or ill. What you already paid is sunk and should not decide whether you go on a given day."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Sweis BM, Abram SV, Schmidt BJ, et al. Sensitivity to sunk costs in mice, rats, and humans. Science, 2018.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30002252/"
+        },
+        {
+          "label": "Chang BP, Webb TL, Benn Y, Stride CB. Which factors are associated with monitoring goal progress? Frontiers in Psychology, 2017.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28392775/"
+        },
+        {
+          "label": "Harkin B, Webb TL, Chang BP, et al. Does monitoring goal progress promote goal attainment? A meta-analysis of the experimental evidence. Psychological Bulletin, 2016.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26479070/"
+        }
+      ]
+    }
+  }
+}

@@ -87,9 +87,13 @@ def check_guide(path, topics):
         errors.append("updated must be YYYY-MM-DD")
     for lang in LANGS:
         where = f"{lang}:"
+        if lang not in g.get("langs", {}) and lang != "en":
+            continue
         if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", slugs.get(lang, "")):
             errors.append(f"{where} slug missing or not lowercase ascii-hyphen")
         t = g.get("langs", {}).get(lang)
+        if t is None and lang != "en":  # en is required; other languages may be added later
+            continue
         if not isinstance(t, dict):
             errors.append(f"{where} language block missing")
             continue
@@ -222,7 +226,7 @@ def build_guide(g, lang, ts, guides, tpl):
         {"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": lang, "mainEntity": [
             {"@type": "Question", "name": f["q"], "acceptedAnswer": {"@type": "Answer", "text": f["a"]}} for f in c["faq"]]},
     ]
-    alternates = {l: guide_url(g, l, ts[l]) for l in LANGS}
+    alternates = {l: guide_url(g, l, ts[l]) for l in LANGS if l in g["langs"]}
     return path, guide_chrome(lang, t, ts, URL + path, alternates, c["title"], c["description"], main, schema, "article", tpl)
 
 
@@ -305,10 +309,11 @@ def main():
         shutil.rmtree(ROOT / guides_dir(lang, ts[lang]).strip("/"), ignore_errors=True)
     for lang in LANGS:
         write(f"{home_path(lang).strip('/')}/index.html".lstrip("/"),
-              build_home(lang, ts[lang], home_tpl, guides_block(lang, ts[lang], guides, ts)))
+              build_home(lang, ts[lang], home_tpl, guides_block(lang, ts[lang], [g for g in guides if lang in g["langs"]], ts)))
         urls.append(URL + home_path(lang))
-        if guides:
-            pages = [build_guides_index(lang, ts, guides, guide_tpl)] + [build_guide(g, lang, ts, guides, guide_tpl) for g in guides]
+        gl = [g for g in guides if lang in g["langs"]]
+        if gl:
+            pages = [build_guides_index(lang, ts, gl, guide_tpl)] + [build_guide(g, lang, ts, gl, guide_tpl) for g in gl]
             for path, text in pages:
                 write(path.strip("/") + "/index.html", text)
                 urls.append(URL + path)

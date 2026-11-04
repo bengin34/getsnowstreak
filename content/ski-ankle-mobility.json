@@ -1,0 +1,51 @@
+{
+  "updated": "2026-11-04",
+  "slugs": {
+    "en": "ski-ankle-mobility"
+  },
+  "langs": {
+    "en": {
+      "title": "Ski Ankle Mobility: Exercises for Better Boot Flex",
+      "description": "Why ankle mobility matters for skiing, how to test your dorsiflexion at a wall, and five simple drills to do before the season. Honest limits included.",
+      "headline": "Ski ankle mobility: how to test it and what to do about it",
+      "lede": "Ankle mobility for skiing mostly means dorsiflexion: how far your shin can travel over your foot. Test it at a wall, then use calf stretches, slow bent-knee ankle rocks and calf raises for a few weeks. Gains are usually small, and boots, stance and strength matter as much.",
+      "body_html": "<p>Ski boots hold your ankle in a stiff shell and tilt your shin forward. To stand in them with your weight over the middle of your feet, you need enough forward bend in the ankle to let your knees and hips sit in a balanced, flexed position. If you cannot bend the ankle that far, something else has to give: usually the hips sit back, the quads take the load, and you end up in the backseat. That is why ankle mobility comes up in every ski fitness conversation. This guide covers what it is, how to check it and what is realistic to change.</p>\n\n<h2>What is ankle mobility, exactly?</h2>\n<p>The movement you care about is dorsiflexion: bringing the top of your foot toward your shin, or equivalently, moving your knee forward over your toes with your heel on the floor. Two muscles limit it: the calf (gastrocnemius across the knee, soleus below it), and the joint itself. A tight calf shows up when the knee is straight. Restriction that remains with the knee bent points more to the soleus or the joint.</p>\n<p>A study of 101 healthy adults measured ankle and hip range of motion and squat depth. In men, ankle dorsiflexion with a bent knee and hip flexion were both associated with how deep they could squat. In women, dorsiflexion with a straight knee and dorsiflexor strength were associated. The authors suggested that training these factors may help squat performance, and called for trials to confirm it<sup>[1]</sup>. This is an association, not proof that stretching deepens your squat. Still, it fits what you see in the gym: people with stiff ankles find deep, upright positions harder.</p>\n\n<h2>Why it matters beyond depth</h2>\n<p>A 2018 meta-analysis of 17 studies found that reduced ankle dorsiflexion was associated with dynamic knee valgus, the knee collapsing inward during squats and landings (SMD -0.65, 95% CI -0.88 to -0.41)<sup>[2]</sup>. The link was strongest when dorsiflexion was measured standing on the foot. The study does not show that stiff ankles cause knee injuries, and it does not tell you stretching will fix valgus. It does give a reason to check your ankles when you look at knee health, which you can read about in <a href=\"guide:ski-knee-injury-prevention\">ski knee injury prevention</a>.</p>\n\n<h2>The wall test</h2>\n<p>You need a wall, a tape measure and a minute per side.</p>\n<ol>\n<li>Take off your shoes. Place one foot on the floor with the big toe 10 cm from the wall, foot pointing straight at it.</li>\n<li>Bend the knee forward to touch the wall, keeping the heel flat on the floor.</li>\n<li>If you touch easily, move the foot back a few centimetres and try again. Find the farthest distance where the knee still touches with the heel down.</li>\n<li>Compare left to right. Fewer than about 8 to 10 cm is a limited range on that side; a difference between sides of more than 2 cm is worth noting.</li>\n</ol>\n<p>The 10 cm figure is a common rule of thumb in clinics, not a diagnostic threshold from the sources here. The use of the test is simpler: measure, train for a few weeks, measure again. If one ankle is much stiffer, particularly after an old sprain, ask a physiotherapist.</p>\n\n<h2>Five drills that are worth the time</h2>\n<h3>1. Calf stretch, straight knee</h3>\n<p>Hands on a wall, one leg back, heel down, knee straight. Lean in until you feel the stretch, and hold 30 seconds. Repeat twice per side.</p>\n<h3>2. Calf stretch, bent knee</h3>\n<p>Same position, but bring the back knee forward and down, still keeping the heel on the floor. This targets the soleus. Hold 30 seconds, twice per side.</p>\n<h3>3. Knee-to-wall rocks</h3>\n<p>The wall test as an exercise. Slowly rock your knee forward 10 to 15 times per side, with a one-second pause at the end of the range. Keep the heel down and the knee tracking over the second toe.</p>\n<h3>4. Calf raises with a slow lowering</h3>\n<p>Raise on both feet, then lower on three seconds. This builds calf strength through a long range. Do 2 x 12. Calf raises are part of the leg-strength day in most ski plans, including the one in the <a href=\"guide:ski-fitness-plan\">ski fitness plan</a>.</p>\n<h3>5. Tibialis raises</h3>\n<p>Stand with your back and heels against a wall, feet a step forward. Lift the toes toward your shins, then lower slowly. 2 x 15. This trains the dorsiflexor muscles that the study above linked to squat depth in women<sup>[1]</sup>.</p>\n\n<h2>How much will it change?</h2>\n<p>Less than the internet suggests. An international panel of 20 stretching researchers reached consensus that stretching improves range of motion and reduces muscle stiffness, but also that it is not a complete injury-prevention strategy and does not acutely speed up recovery<sup>[3]</sup>. In practice, expect a few millimetres to a couple of centimetres on the wall test over four to six weeks of regular work, and expect that to fade if you stop. If your range stays low after that, the limit may be in the joint, and stretching more will not help.</p>\n<p>Warm up first. Two minutes of marching and leg swings, as described in <a href=\"guide:ski-warm-up-before-skiing\">ski warm-up before skiing</a>, makes stretching more comfortable than going in cold.</p>\n\n<h2>What to do about the boots</h2>\n<p>Training only goes so far. Boots that are too stiff, too big, or set up with the wrong forward lean make your ankle work harder than it should. A boot fitter can adjust flex, lean and footbeds in an hour, and that often does more for your stance than weeks of stretching. If you rent, ask for a fitting, not just a size.</p>\n\n<h2>When to see someone</h2>\n<p>See a physiotherapist or doctor if you have pain at the front of the ankle when you bend it, a feeling of blocking, swelling, or an old sprain that still gives way. Those are not stretching problems.</p>\n\n<p>Mobility is one piece. SnowStreak does not have a dedicated ankle drill, but its leg days include calf raises and a balance day for single-leg control, in short bodyweight sessions you can do at home. <a href=\"app\">SnowStreak for iPhone</a> is free to start and works offline.</p>",
+      "faq": [
+        {
+          "q": "What is ankle dorsiflexion and why does it matter for skiing?",
+          "a": "It is how far your shin can move forward over your foot. Ski boots tilt your shin forward, so limited dorsiflexion can push your hips back and load your quads more."
+        },
+        {
+          "q": "How do I test ankle mobility at home?",
+          "a": "Place your big toe about 10 cm from a wall and try to touch your knee to it with the heel flat. Move the foot back until you find your limit. Compare sides and retest after a few weeks."
+        },
+        {
+          "q": "How long does it take to improve ankle mobility?",
+          "a": "Small changes can show within four to six weeks of regular stretching and rocks. Gains are usually modest and fade without maintenance."
+        },
+        {
+          "q": "Can ankle stretching prevent knee injuries in skiing?",
+          "a": "There is no evidence that it does by itself. Stiff ankles are associated with knee collapse in squats and landings, but association is not proof that stretching prevents injury."
+        },
+        {
+          "q": "Should I see a professional about stiff ankles?",
+          "a": "Yes if you have pain, swelling, a blocked feeling, or an old sprain that gives way. A boot fitter can also help if your boots are the limiting factor."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Kim SH, Kwon OY, Park KN, Jeon IC, Weon JH. Lower extremity strength and the range of motion in relation to squat depth. Journal of Human Kinetics, 2015.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25964810/"
+        },
+        {
+          "label": "Lima YL, Ferreira VMLM, de Paula Lima PO, Bezerra MA, de Oliveira RR, Almeida GPL. The association of ankle dorsiflexion and dynamic knee valgus: a systematic review and meta-analysis. Physical Therapy in Sport, 2018.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28974358/"
+        },
+        {
+          "label": "Warneke K, Thomas E, Blazevich AJ, et al. Practical recommendations on stretching exercise: a Delphi consensus statement of international research experts. Journal of Sport and Health Science, 2025.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40513717/"
+        }
+      ]
+    }
+  }
+}

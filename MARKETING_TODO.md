@@ -23,3 +23,4 @@
 | 2026-11-02 | Initial site: home x5 langs, privacy, support, 404, sitemap, OG | ecc:seo, ecc:frontend-design-direction, ecc:brand-voice | Lighthouse mobile: SEO 100, BP 100, a11y 96 → contrast + label fixed |
 | 2026-11-02 | Guides: build pipeline + 8 topics x 5 langs (40 pages + 5 indexes) via 8 writer subagents | ecc:seo, ecc:market-research, ecc:article-writing, ecc:brand-voice | `--check` clean, 0 broken internal links, mobile 390 no overflow |
 | 2026-11-02 | Home: first-visit ski/snowboard picker, 4.4 s stunt run over 3 peaks (backflip, 360, front flip, camera pan), then scroll-driven slalom rider (JS-only, reduced-motion off, choice in localStorage, privacy note updated) | ecc:seo, ecc:frontend-design-direction |
+| 2026-11-04 | Guides round 2 (MEN-131): 30 new topics, English only (38 total en). build.py: de/fr/it/es optional per guide | ecc:seo, ecc:article-writing, ecc:brand-voice | `--check` clean on all 38. Follow-up: translate the 30 to de/fr/it/es |
