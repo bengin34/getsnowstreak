@@ -14,7 +14,7 @@
 - [ ] Localized screens (only en-US raw captures exist; DE/FR/IT/ES pages show English UI).
 - [ ] Search Console + Bing Webmaster after domain; submit sitemap.
 - [x] Content: 8 guides x 5 langs (`content/PLAN.md`), hub + cluster, guides index per language, home guides block (2026-11-02).
-- [ ] Guides round 2: more topics (balance exercises, ski warm-up on the slope, beginner first ski trip, how many ski days per season); refresh pass prices each autumn.
+- [x] Guides round 2: 30 new en guides (2026-11-04). Open: translate to de/fr/it/es (MEN-133); refresh pass prices each autumn.
 - [ ] Add nl, pl, cs, sv, nb, fi (app supports them).
 
 ## Run log
@@ -23,3 +23,4 @@
 | 2026-11-02 | Initial site: home x5 langs, privacy, support, 404, sitemap, OG | ecc:seo, ecc:frontend-design-direction, ecc:brand-voice | Lighthouse mobile: SEO 100, BP 100, a11y 96 → contrast + label fixed |
 | 2026-11-02 | Guides: build pipeline + 8 topics x 5 langs (40 pages + 5 indexes) via 8 writer subagents | ecc:seo, ecc:market-research, ecc:article-writing, ecc:brand-voice | `--check` clean, 0 broken internal links, mobile 390 no overflow |
 | 2026-11-02 | Home: first-visit ski/snowboard picker, 4.4 s stunt run over 3 peaks (backflip, 360, front flip, camera pan), then scroll-driven slalom rider (JS-only, reduced-motion off, choice in localStorage, privacy note updated) | ecc:seo, ecc:frontend-design-direction |
+| 2026-11-04 | Guides round 2 (MEN-131): 30 new topics, English only (38 total en). build.py: de/fr/it/es optional per guide | ecc:seo, ecc:article-writing, ecc:brand-voice | `--check` clean on all 38. Follow-up: translate the 30 to de/fr/it/es |
