@@ -14,7 +14,7 @@
 - [ ] Localized screens (only en-US raw captures exist; DE/FR/IT/ES pages show English UI).
 - [ ] Search Console + Bing Webmaster after domain; submit sitemap.
 - [x] Content: 8 guides x 5 langs (`content/PLAN.md`), hub + cluster, guides index per language, home guides block (2026-11-02).
-- [x] Guides round 2: 30 new en guides (2026-11-04). Open: translate to de/fr/it/es (MEN-133); refresh pass prices each autumn.
+- [x] Guides round 2: 30 new en guides (2026-11-04). Translated to de/fr/it/es (MEN-133, 2026-11-12). Open: refresh pass prices each autumn.
 - [ ] Add nl, pl, cs, sv, nb, fi (app supports them).
 
 ## Run log

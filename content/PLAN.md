@@ -38,3 +38,4 @@ Writer rules: `content/README.md`. Every guide links to the hub and at least 2 o
 | id | en | de | fr | it | es |
 |---|---|---|---|---|---|
 | all 8 | written 2026-11-02 | written | written | written | written |
+| round-2 30 topics | written 2026-11-04 | written 2026-11-12 | written 2026-11-12 | written 2026-11-12 | written 2026-11-12 |
