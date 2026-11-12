@@ -135,6 +135,12 @@ def load_guides():
         g = json.loads(p.read_text())
         g["id"] = p.stem
         guides.append(g)
+    seen = {}
+    for g in guides:
+        for lang, slug in g["slugs"].items():
+            if (lang, slug) in seen:
+                sys.exit(f"ERROR duplicate {lang} slug {slug}: {seen[(lang, slug)]}, {g['id']}")
+            seen[(lang, slug)] = g["id"]
     guides.sort(key=lambda g: g["id"] != "ski-fitness-plan")  # hub first
     return guides
 

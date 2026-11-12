@@ -1,7 +1,11 @@
 {
   "updated": "2026-11-04",
   "slugs": {
-    "en": "beginner-first-ski-trip"
+    "en": "beginner-first-ski-trip",
+    "de": "erster-skiurlaub-vorbereiten-anfaenger",
+    "fr": "premier-sejour-ski-debutant",
+    "it": "prima-vacanza-sci-principianti",
+    "es": "primer-viaje-esqui-principiantes"
   },
   "langs": {
     "en": {
@@ -34,6 +38,210 @@
         {
           "q": "When should I see a doctor after a fall?",
           "a": "With sharp pain, swelling, a joint that feels unstable, numbness or any blow to the head, get checked before skiing again."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Langran M, Selvaraj S. Increased injury risk among first-day skiers, snowboarders, and skiboarders. American Journal of Sports Medicine, 2004.",
+          "url": "https://abdn.elsevierpure.com/en/publications/increased-injury-risk-among-first-day-skiers-snowboarders-and-ski"
+        },
+        {
+          "label": "Laaksonen J, Vaajala M, Liukkonen R, et al. Epidemiology of Alpine Skiing and Snowboarding Injuries: A Systematic Review and Meta-Analysis. Health Science Reports, 2026.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42741520/"
+        },
+        {
+          "label": "Xinqi S, Dawei L, Wei J, et al. Epidemiological characteristics of skiing injuries: a retrospective study based on the 2024-2025 ski season. Frontiers in Sports and Active Living, 2026.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42222177/"
+        },
+        {
+          "label": "Ruedl G, Helle K, Tecklenburg K, et al. Impact of self-reported fatigue on ACL injuries in alpine skiing: a sex comparison. Sportverletzung Sportschaden, 2015.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26689190/"
+        }
+      ]
+    },
+    "de": {
+      "title": "Erster Skiurlaub: Vorbereitung für Anfänger und Tipps",
+      "description": "Zum ersten Mal Ski fahren? Was du vorher tun solltest, welche Ausrüstung du mietest, ein Dreitagesplan und was die Forschung zum Risiko am ersten Tag sagt.",
+      "headline": "Erster Skiurlaub als Anfänger: So bereitest du dich vor",
+      "lede": "Bereite dich auf den ersten Skiurlaub mit vier bis sechs Wochen Kniebeugen, Balance und leichtem Ausdauertraining vor, miete gut sitzende Skischuhe und einen Helm und halte den ersten Tag kurz. Der erste Tag ist der riskanteste: Eine Studie fand bei Skifahrenden am ersten Tag eine etwa 2,2-fach erhöhte Verletzungsrate gegenüber dem Erwartungswert.",
+      "body_html": "<p>Ein erster Skiurlaub hat viel zu bieten: Schuhe, die sich auf Beton wie Skischalen anfühlen, einen Lift, den du noch nie benutzt hast, und eine Gruppe, die erwartet, dass es dir gefällt. Das meiste, was schiefgeht, ist vorhersehbar und mit ein paar Wochen Vorbereitung und vernünftigen Entscheidungen am ersten Tag vermeidbar. Dieser Ratgeber zeigt, was du vor der Abreise tust, was du mitnimmst, wie du die ersten drei Tage gestaltest und was die Verletzungsforschung über Anfängerinnen und Anfänger sagt.</p>\n\n<h2>Wie riskant ist der erste Skitag?</h2>\n<p>Skifahren ist nicht die gefährlichste Sportart, aber der erste Tag ist der riskanteste. Eine Fall-Kontroll-Studie in den drei größten schottischen Skigebieten über drei Saisons zeigte, dass Personen am ersten Tag unter den Verletzten etwa 2,2-mal so häufig vertreten waren wie erwartet. Unabhängige Risikofaktoren waren ein Alter unter 17 oder über 26 Jahren, Snowboarden, professioneller Unterricht und geliehene oder gemietete Ausrüstung<sup>[1]</sup>. Die Autoren empfahlen Aufklärung über Ausrüstung, Schutz und darüber, im Rahmen des eigenen Könnens zu bleiben.</p>\n<p>Zwei Punkte brauchen Vorsicht. Erstens bedeutet der Befund zum Unterricht nicht, dass du auf Skikurse verzichten solltest. Die Autoren konnten ihn nicht erklären. Wahrscheinlich sind Anfänger mit Unterricht ehrgeiziger, fahren mehr Stunden oder landen früher auf schwierigerem Gelände. Zweitens stammen die Zahlen aus einer Region und einem Zeitraum. Das Muster passt trotzdem zu anderen Arbeiten: Ein Review von 2026 mit rund 408 Millionen Skifahrertagen von Amateuren fand Stürze als häufigste Verletzungsursache und die Gliedmaßen als am häufigsten betroffene Region<sup>[2]</sup>, und eine Klinikserie aus China zeigte, dass Anfänger deutlich häufiger Unterschenkelverletzungen erlitten als Verletzungen der oberen Extremität (Odds Ratio 4,58)<sup>[3]</sup>. Anfänger stürzen, und ihre Beine bekommen es ab.</p>\n<p>Die Schlussfolgerung lautet nicht, Angst zu haben. Sie lautet, Beine und Plan auf Stürze, Müdigkeit und langsamen Fortschritt vorzubereiten.</p>\n\n<h2>Körper vier bis sechs Wochen vorher vorbereiten</h2>\n<p>Du musst kein Leistungssportler sein. Du brauchst Beine, die eine Position mit gebeugten Knien einige Minuten halten können, und ein Gleichgewicht auf einem Fuß. Wenn du sonst nichts machst, tu diese drei Dinge vier bis sechs Wochen lang:</p>\n<ul>\n<li><strong>Kniebeugen und Wandsitzen.</strong> Beginne mit 20 bis 30 Sekunden Haltezeit und steigere dich jede Woche um ein paar Sekunden. Die Position ist dieselbe wie auf den Skiern. Ein Beispiel: Wer in der ersten Woche 20 Sekunden schafft, steht in Woche sechs oft schon eine Minute. Das reicht für eine ganze Abfahrt auf der Anfängerpiste.</li>\n<li><strong>Einbeinstand.</strong> 30 Sekunden pro Bein, mehr auf einem gefalteten Handtuch. Siehe <a href=\"guide:ski-balance-exercises\">Balanceübungen fürs Skifahren</a>.</li>\n<li><strong>Etwas Ausdauer.</strong> Zügiges Gehen, Radfahren oder Treppensteigen, dreimal pro Woche 20 bis 30 Minuten. Skitage sind lang, und Warteschlangen am Lift erholen dich nicht.</li>\n</ul>\n<p>Den kompletten Plan findest du in der <a href=\"guide:ski-fitness-plan\">Skigymnastik-Anleitung</a>, und das <a href=\"guide:ski-training-for-beginners\">Skitraining für Anfänger</a> geht die Grundlagen Schritt für Schritt durch. Wenn du nur eine Woche hast, lies <a href=\"guide:ski-exercises-at-home\">Skigymnastik-Übungen für zuhause</a> und such dir fünf Übungen aus.</p>\n\n<h2>Ausrüstung: Was du mietest und was du mitbringst</h2>\n<p>Mieten ist beim ersten Urlaub normal. Wichtig sind Passform und Einstellung:</p>\n<ul>\n<li><strong>Skischuhe.</strong> Sie sollten eng sitzen, ohne dass die Ferse hochrutscht, und deine Zehen sollten nur im aufrechten Stand vorne anstoßen. Sag dem Techniker, dass du Anfänger bist. Schmerzende Schuhe beenden deinen Tag am Mittag. Frag nach, ob die Schuhe zu deiner Fußform passen, und probiere sie im Geschäft einige Minuten in gebeugter Haltung.</li>\n<li><strong>Bindung.</strong> Der Shop stellt die Auslösewerte nach Gewicht, Größe, Alter und Können ein. Mach ehrliche Angaben und verlange keinen höheren Wert, um dich sicherer zu fühlen.</li>\n<li><strong>Helm.</strong> Die meisten Skiverleihe haben welche. Trag einen.</li>\n<li><strong>Kleidung.</strong> Drei Schichten: ein dünnes Unterhemd, eine warme Mittelschicht, eine wasserdichte Jacke. Baumwolle wird nass und bleibt kalt.</li>\n<li><strong>Kleinigkeiten.</strong> Handschuhe oder Fäustlinge (ein Ersatzpaar mitnehmen, denn nasse Hände machen den Tag schnell unangenehm), eine Skibrille für flaches Licht, Sonnenschutz fürs Gesicht, eine kleine Wasserflasche und einen Lippenpflegestift.</li>\n</ul>\n\n<h2>Ein sinnvoller Plan für drei Tage</h2>\n<p><strong>Tag 1: Skischule, kurz.</strong> Buche gleich zu Beginn einen Gruppenkurs oder eine Privatstunde. Lerne, in Skischuhen zu gehen, zu bremsen, nach einem Sturz aufzustehen und den Anfängerlift zu benutzen. Hör nach drei bis vier Stunden auf, auch wenn du dich großartig fühlst: Müde Anfänger stürzen häufiger. Die oben genannte Forschung zu ersten Tagen ist ein Grund für einen kurzen ersten Tag<sup>[1]</sup>, und in einer Befragung von 588 Skifahrenden mit Kreuzbandverletzung hatte sich etwa ein Drittel am ersten Tag auf Schnee verletzt<sup>[4]</sup>.</p>\n<p><strong>Tag 2: Wiederholen und erweitern.</strong> Übe am selben leichten Hang und probiere dann eine etwas längere blaue Piste. Deine Beine werden schmerzen: Das ist normal und ein Zeichen, dass die Oberschenkel zum ersten Mal richtig gebremst haben. Lies <a href=\"guide:sore-after-skiing\">was gegen Muskelkater nach dem Skifahren hilft</a> für die Abendroutine und überlege, noch einmal Unterricht zu nehmen.</p>\n<p><strong>Tag 3: Schwünge verbinden.</strong> Inzwischen hat sich dein Körper ein wenig angepasst. Verbinde leichte Schwünge, halte am Pistenrand an und schau hangaufwärts, bevor du wieder startest. Folge Freunden nicht auf rote Pisten, bevor du auf einer blauen sicher anhalten kannst.</p>\n<p>Wer lieber vorab plant, wie viele Tage über einen ganzen Winter sinnvoll sind, findet das in <a href=\"guide:how-many-ski-days-per-season\">wie viele Skitage pro Saison</a>.</p>\n\n<h2>Pistenregeln, die dich schützen</h2>\n<ul>\n<li>Halte nur am Rand an oder dort, wo man dich von oben sehen kann, nie direkt unterhalb einer Kuppe.</li>\n<li>Der Vordermann hat Vorrang. Schau hangaufwärts, bevor du losfährst.</li>\n<li>Richte dich nach dem langsamsten Mitglied deiner Gruppe, nicht nach dem schnellsten.</li>\n<li>Such Pisten nach Farbe und Schwierigkeit aus, nicht danach, wem du folgst.</li>\n<li>Trink Wasser. Kalte Luft und Höhe trocknen dich aus, ohne dass du Durst spürst.</li>\n</ul>\n\n<h2>Wann du aufhören und zum Arzt gehen solltest</h2>\n<p>Hör für den Tag auf, wenn deine Beine zittern, wenn dir so kalt ist, dass du frierst, oder wenn du immer wieder denselben Fehler machst. Wende dich nach einem Sturz an die Pistenrettung oder einen Arzt, wenn du stechende Schmerzen, ein Gelenk mit Schwellung oder Instabilitätsgefühl, einen Schlag auf den Kopf oder Taubheit hast. Versuch nicht, eine Verletzung wegzufahren, und fahr bei anhaltenden Schmerzen erst nach einer ärztlichen Abklärung wieder los. Knieverletzungen sind bei Skifahrenden häufig, und eine frühe Diagnose hilft der Heilung.</p>\n\n<h2>Zähle deine Tage mit SnowStreak</h2>\n<p>Wenn du einen strukturierten Weg suchst, deine Beine fit zu machen: <a href=\"app\">SnowStreak</a> bietet ein sechswöchiges Vorsaison-Programm mit drei Einheiten pro Woche mit Körpergewicht, je 17 bis 22 Minuten, mit einem Anfängerlevel. Es ist eine iPhone-App, kostenlos zum Start, mit einem Countdown bis zum ersten Skitag, und du brauchst nur Platz auf dem Boden und eine Wand. Du kannst jederzeit zwischen Anfänger- und Fortgeschrittenenlevel wechseln. Es bereitet deine Beine vor, ersetzt aber keinen Skikurs.</p>",
+      "faq": [
+        {
+          "q": "Wie lange sollte ich mich auf meinen ersten Skiurlaub vorbereiten?",
+          "a": "Vier bis sechs Wochen mit dreimal pro Woche kurzen Einheiten sind ein gutes Ziel. Schon zwei Wochen Kniebeugen, Balance und Gehen helfen."
+        },
+        {
+          "q": "Sollte ein Anfänger einen Skikurs nehmen?",
+          "a": "Ja. Sicher bremsen und fallen zu lernen ist mehr wert als jede Übung. Halte den ersten Tag kurz, mit oder ohne Kurs."
+        },
+        {
+          "q": "Soll ich meine Ausrüstung mieten oder kaufen?",
+          "a": "Miete sie für den ersten Urlaub. Achte darauf, dass die Skischuhe gut passen und der Shop die Bindung auf dein echtes Gewicht, deine Größe und dein Können einstellt."
+        },
+        {
+          "q": "Welche Fitness brauche ich zum Skifahren-Lernen?",
+          "a": "Beine, die eine Position mit gebeugten Knien halten, etwas Einbeinbalance und Grundausdauer. Du musst kein Sportler sein."
+        },
+        {
+          "q": "Warum tun meine Beine nach dem ersten Tag so weh?",
+          "a": "Beim Skifahren bremsen die Oberschenkel unter Last, was ein bis zwei Tage Muskelkater verursacht. Das ist häufig und klingt meist ohne Behandlung ab."
+        },
+        {
+          "q": "Wann sollte ich nach einem Sturz zum Arzt?",
+          "a": "Bei stechenden Schmerzen, Schwellung, einem instabilen Gelenk, Taubheit oder jedem Schlag auf den Kopf: Lass dich untersuchen, bevor du wieder Ski fährst."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Langran M, Selvaraj S. Increased injury risk among first-day skiers, snowboarders, and skiboarders. American Journal of Sports Medicine, 2004.",
+          "url": "https://abdn.elsevierpure.com/en/publications/increased-injury-risk-among-first-day-skiers-snowboarders-and-ski"
+        },
+        {
+          "label": "Laaksonen J, Vaajala M, Liukkonen R, et al. Epidemiology of Alpine Skiing and Snowboarding Injuries: A Systematic Review and Meta-Analysis. Health Science Reports, 2026.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42741520/"
+        },
+        {
+          "label": "Xinqi S, Dawei L, Wei J, et al. Epidemiological characteristics of skiing injuries: a retrospective study based on the 2024-2025 ski season. Frontiers in Sports and Active Living, 2026.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42222177/"
+        },
+        {
+          "label": "Ruedl G, Helle K, Tecklenburg K, et al. Impact of self-reported fatigue on ACL injuries in alpine skiing: a sex comparison. Sportverletzung Sportschaden, 2015.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26689190/"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Premier séjour au ski débutant : préparation et conseils",
+      "description": "Première fois au ski ? Ce qu'il faut faire avant de partir, le matériel à louer, un plan sur trois jours et ce que dit la recherche sur le risque le premier jour.",
+      "headline": "Premier séjour au ski pour débutant : comment bien se préparer",
+      "lede": "Préparez un premier séjour au ski avec quatre à six semaines de squats, d'équilibre et de cardio facile, louez des chaussures bien ajustées et un casque, et gardez un premier jour court. Le premier jour est le plus risqué : une étude a trouvé chez les skieurs du premier jour un taux de blessures environ 2,2 fois supérieur à l'attendu.",
+      "body_html": "<p>Un premier séjour au ski, c'est beaucoup de nouveautés : des chaussures qui ressemblent à des seaux sur du béton, un remonte-pente que vous n'avez jamais pris et un groupe qui compte sur vous pour vous amuser. La plupart des problèmes sont prévisibles et évitables avec quelques semaines de préparation et des choix raisonnables le premier jour. Ce guide explique ce qu'il faut faire avant le départ, quoi emporter, comment passer les trois premiers jours et ce que dit la recherche sur les blessures des débutants.</p>\n\n<h2>Le premier jour de ski est-il risqué ?</h2>\n<p>Le ski n'est pas le sport le plus dangereux, mais le premier jour est le jour le plus risqué. Une étude cas-témoins menée dans les trois plus grandes stations écossaises sur trois saisons a montré que les personnes présentes pour leur premier jour représentaient, parmi les blessés, environ 2,2 fois plus de cas qu'attendu. Les facteurs de risque indépendants étaient un âge inférieur à 17 ans ou supérieur à 26 ans, le snowboard, les cours avec un professionnel et le matériel loué ou emprunté<sup>[1]</sup>. Les auteurs recommandaient de s'informer sur le matériel, la protection et de rester dans les limites de son niveau.</p>\n<p>Deux points demandent de la prudence. D'abord, ce résultat sur les cours ne veut pas dire qu'il faut s'en passer. Les auteurs ne l'expliquaient pas, et une lecture probable est que les débutants qui prennent des cours sont plus ambitieux, skient plus d'heures ou se retrouvent plus vite sur un terrain plus difficile. Ensuite, ces chiffres viennent d'une région et d'une période. Le schéma reste cohérent avec d'autres travaux : une revue de 2026 portant sur environ 408 millions de journées-skieur amateurs a trouvé que les chutes étaient la première cause de blessure et les membres la zone la plus touchée<sup>[2]</sup>, et une série hospitalière chinoise a montré que les débutants avaient bien plus souvent des blessures à la jambe qu'au membre supérieur (odds ratio 4,58)<sup>[3]</sup>. Les débutants tombent, et leurs jambes encaissent.</p>\n<p>La conclusion n'est pas d'avoir peur. C'est de préparer vos jambes et votre plan aux chutes, à la fatigue et à une progression lente.</p>\n\n<h2>Préparer son corps quatre à six semaines avant</h2>\n<p>Pas besoin d'être un athlète. Il vous faut des jambes capables de tenir une position genoux fléchis pendant quelques minutes et un équilibre sur un pied. Si vous ne faites rien d'autre, faites ces trois choses pendant quatre à six semaines :</p>\n<ul>\n<li><strong>Squats et chaise murale.</strong> Commencez par 20 à 30 secondes de maintien et ajoutez quelques secondes chaque semaine. La position est la même que sur les skis.</li>\n<li><strong>Équilibre sur une jambe.</strong> 30 secondes par jambe, davantage sur une serviette pliée. Voir les <a href=\"guide:ski-balance-exercises\">exercices d'équilibre pour le ski</a>.</li>\n<li><strong>Un peu de cardio.</strong> Marche rapide, vélo ou escaliers pendant 20 à 30 minutes, trois fois par semaine. Les journées de ski sont longues, et la file d'attente aux remontées ne vous repose pas.</li>\n</ul>\n<p>Le plan complet se trouve dans la <a href=\"guide:ski-fitness-plan\">préparation physique au ski</a>, et <a href=\"guide:ski-training-for-beginners\">l'entraînement au ski pour débutants</a> reprend les bases pas à pas. S'il ne vous reste qu'une semaine, lisez <a href=\"guide:ski-exercises-at-home\">les exercices de ski à la maison</a> et choisissez cinq mouvements.</p>\n\n<h2>Matériel : quoi louer et quoi emporter</h2>\n<p>La location est normale pour un premier séjour. Ce qui compte, c'est l'ajustement et le réglage :</p>\n<ul>\n<li><strong>Chaussures.</strong> Elles doivent serrer sans que le talon se soulève, et vos orteils ne doivent toucher l'avant que debout et droit. Dites au technicien que vous êtes débutant. Des chaussures douloureuses mettent fin à votre journée avant midi.</li>\n<li><strong>Fixations.</strong> Le magasin règle les valeurs de déclenchement d'après votre poids, votre taille, votre âge et votre niveau. Donnez des informations honnêtes et ne demandez pas un réglage plus haut pour vous sentir plus en sécurité.</li>\n<li><strong>Casque.</strong> La plupart des loueurs en proposent. Portez-en un.</li>\n<li><strong>Vêtements.</strong> Trois couches : une couche fine près du corps, une couche intermédiaire chaude, une veste imperméable. Le coton s'imbibe et reste froid.</li>\n<li><strong>Petits objets.</strong> Gants ou moufles (prenez une paire de rechange), masque pour la lumière plate, protection solaire pour le visage, une petite bouteille d'eau, un stick à lèvres.</li>\n</ul>\n\n<h2>Un plan raisonnable sur trois jours</h2>\n<p><strong>Jour 1 : école de ski, court.</strong> Réservez un cours collectif ou une heure particulière dès le début. Apprenez à marcher en chaussures, à vous arrêter, à vous relever après une chute et à utiliser le remonte-pente des débutants. Arrêtez-vous après trois à quatre heures même si vous vous sentez en pleine forme : les débutants fatigués tombent plus. La recherche citée plus haut sur les premiers jours est une raison de garder un premier jour court<sup>[1]</sup>, et dans une enquête auprès de 588 skieurs ayant eu une rupture du ligament croisé, environ un tiers s'étaient blessés le premier jour sur la neige<sup>[4]</sup>.</p>\n<p><strong>Jour 2 : répéter et élargir.</strong> Entraînez-vous sur la même pente facile, puis essayez une piste verte un peu plus longue. Vos jambes seront courbaturées : c'est normal. Lisez <a href=\"guide:sore-after-skiing\">ce qui aide contre les courbatures après le ski</a> pour la routine du soir, et envisagez de reprendre un cours.</p>\n<p><strong>Jour 3 : enchaîner les virages.</strong> À ce stade, votre corps s'est un peu adapté. Enchaînez des virages faciles, arrêtez-vous sur le bord de la piste et regardez vers l'amont avant de repartir. Ne suivez pas vos amis sur des pistes rouges avant de savoir vous arrêter à coup sûr sur une verte.</p>\n<p>Pour savoir combien de jours ont du sens sur tout un hiver, voir <a href=\"guide:how-many-ski-days-per-season\">combien de jours de ski par saison</a>.</p>\n\n<h2>Les règles de la piste qui vous protègent</h2>\n<ul>\n<li>Ne vous arrêtez que sur le bord ou là où l'on vous voit d'en haut, jamais juste sous une bosse.</li>\n<li>Le skieur en aval est prioritaire. Regardez vers l'amont avant de partir.</li>\n<li>Réglez-vous sur le membre le plus lent de votre groupe, pas sur le plus rapide.</li>\n<li>Choisissez les pistes selon leur couleur et leur difficulté, pas selon la personne que vous suivez.</li>\n<li>Buvez de l'eau. L'air froid et l'altitude vous déshydratent sans que vous ayez soif.</li>\n</ul>\n\n<h2>Quand s'arrêter et quand consulter</h2>\n<p>Arrêtez pour la journée si vos jambes tremblent, si vous avez si froid que vous grelottez ou si vous refaites sans cesse la même erreur. Après une chute, voyez les pisteurs ou un médecin en cas de douleur vive, d'articulation qui gonfle ou semble instable, de coup à la tête ou d'engourdissement. N'essayez pas de skier malgré une blessure. Les blessures au genou sont fréquentes chez les skieurs, et un diagnostic précoce aide à la récupération.</p>\n\n<h2>Comptez vos jours avec SnowStreak</h2>\n<p>Si vous voulez une méthode structurée pour préparer vos jambes, <a href=\"app\">SnowStreak</a> propose un programme de préparation de six semaines, trois séances par semaine au poids du corps, de 17 à 22 minutes chacune, avec un niveau débutant. C'est une application iPhone, gratuite pour commencer, avec un compte à rebours jusqu'à votre premier jour de ski ; il vous faut seulement de la place au sol et un mur. Elle prépare vos jambes ; elle ne remplace pas un cours.</p>",
+      "faq": [
+        {
+          "q": "Combien de temps faut-il se préparer pour un premier séjour au ski ?",
+          "a": "Quatre à six semaines avec trois courtes séances par semaine est un bon objectif. Même deux semaines de squats, d'équilibre et de marche aident."
+        },
+        {
+          "q": "Un débutant doit-il prendre un cours de ski ?",
+          "a": "Oui. Apprendre à s'arrêter et à tomber sans danger vaut plus que n'importe quel exercice. Gardez le premier jour court, avec ou sans cours."
+        },
+        {
+          "q": "Vaut-il mieux louer ou acheter son matériel ?",
+          "a": "Louez pour le premier séjour. Vérifiez que les chaussures sont bien ajustées et que le magasin règle les fixations selon votre poids, votre taille et votre niveau réels."
+        },
+        {
+          "q": "Quelle condition physique faut-il pour débuter au ski ?",
+          "a": "Des jambes capables de tenir une position genoux fléchis, un peu d'équilibre sur une jambe et un cardio de base. Pas besoin d'être un athlète."
+        },
+        {
+          "q": "Pourquoi mes jambes sont-elles si courbaturées après le premier jour ?",
+          "a": "Au ski, les cuisses freinent sous charge, ce qui provoque des courbatures un à deux jours. C'est courant et cela disparaît généralement sans traitement."
+        },
+        {
+          "q": "Quand consulter un médecin après une chute ?",
+          "a": "En cas de douleur vive, de gonflement, d'articulation instable, d'engourdissement ou de coup à la tête, faites-vous examiner avant de reskier."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Langran M, Selvaraj S. Increased injury risk among first-day skiers, snowboarders, and skiboarders. American Journal of Sports Medicine, 2004.",
+          "url": "https://abdn.elsevierpure.com/en/publications/increased-injury-risk-among-first-day-skiers-snowboarders-and-ski"
+        },
+        {
+          "label": "Laaksonen J, Vaajala M, Liukkonen R, et al. Epidemiology of Alpine Skiing and Snowboarding Injuries: A Systematic Review and Meta-Analysis. Health Science Reports, 2026.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42741520/"
+        },
+        {
+          "label": "Xinqi S, Dawei L, Wei J, et al. Epidemiological characteristics of skiing injuries: a retrospective study based on the 2024-2025 ski season. Frontiers in Sports and Active Living, 2026.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42222177/"
+        },
+        {
+          "label": "Ruedl G, Helle K, Tecklenburg K, et al. Impact of self-reported fatigue on ACL injuries in alpine skiing: a sex comparison. Sportverletzung Sportschaden, 2015.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26689190/"
+        }
+      ]
+    },
+    "it": {
+      "title": "Prima vacanza sugli sci: preparazione per principianti",
+      "description": "Prima volta sugli sci? Cosa fare prima di partire, cosa noleggiare, un piano di tre giorni e cosa dice la ricerca sul rischio di infortunio il primo giorno.",
+      "headline": "Prima vacanza sugli sci per principianti: come prepararsi",
+      "lede": "Prepara la prima vacanza sugli sci con quattro-sei settimane di squat, equilibrio e cardio leggero, noleggia scarponi ben calzanti e un casco e tieni breve il primo giorno. Il primo giorno è il più rischioso: uno studio ha trovato che chi scia il primo giorno si infortuna a un tasso circa 2,2 volte superiore all'atteso.",
+      "body_html": "<p>Una prima vacanza sugli sci ha molte novità: scarponi che sul cemento sembrano secchi, una seggiovia mai presa e un gruppo che si aspetta che ti diverta. Quasi tutto ciò che va storto è prevedibile ed evitabile con qualche settimana di preparazione e scelte sensate il primo giorno. Questa guida spiega cosa fare prima di partire, cosa portare, come trascorrere i primi tre giorni e cosa dice la ricerca sugli infortuni dei principianti.</p>\n\n<h2>Quanto è rischioso il primo giorno di sci?</h2>\n<p>Lo sci non è lo sport più pericoloso, ma il primo giorno è il più rischioso. Uno studio caso-controllo nei tre maggiori comprensori scozzesi su tre stagioni ha mostrato che chi era al primo giorno rappresentava tra gli infortunati circa 2,2 volte i casi attesi. I fattori di rischio indipendenti erano un'età sotto i 17 o sopra i 26 anni, lo snowboard, le lezioni con un professionista e l'attrezzatura noleggiata o presa in prestito<sup>[1]</sup>. Gli autori raccomandavano di informarsi su attrezzatura e protezioni e di restare entro le proprie capacità.</p>\n<p>Servono due cautele. Primo, il dato sulle lezioni non significa che tu debba evitarle. Gli autori non lo spiegavano e una lettura probabile è che i principianti che prendono lezioni siano più ambiziosi, sciino più ore o arrivino prima su terreni più difficili. Secondo, questi numeri vengono da una regione e da un periodo. Lo schema è comunque coerente con altri lavori: una revisione del 2026 su circa 408 milioni di giornate-sciatore amatoriali ha trovato che le cadute sono la causa principale di infortunio e che gli arti sono la zona più colpita<sup>[2]</sup>, e una serie ospedaliera cinese ha mostrato che i principianti avevano molto più spesso lesioni alla gamba che all'arto superiore (odds ratio 4,58)<sup>[3]</sup>. I principianti cadono, e a pagare sono le gambe.</p>\n<p>La conclusione non è avere paura. È preparare gambe e piano a cadute, stanchezza e progressi lenti.</p>\n\n<h2>Prepara il corpo quattro-sei settimane prima</h2>\n<p>Non serve essere un atleta. Servono gambe che reggano una posizione a ginocchia piegate per qualche minuto e un equilibrio su un piede. Se non fai altro, fai queste tre cose per quattro-sei settimane:</p>\n<ul>\n<li><strong>Squat e sedia al muro.</strong> Parti da 20-30 secondi di tenuta e aggiungi qualche secondo ogni settimana. La posizione è la stessa che userai sugli sci.</li>\n<li><strong>Equilibrio su una gamba.</strong> 30 secondi per gamba, di più su un asciugamano piegato. Vedi gli <a href=\"guide:ski-balance-exercises\">esercizi di equilibrio per lo sci</a>.</li>\n<li><strong>Un po' di cardio.</strong> Camminata veloce, bici o scale per 20-30 minuti, tre volte a settimana. Le giornate di sci sono lunghe e la coda agli impianti non ti fa riposare.</li>\n</ul>\n<p>Il piano completo è nella <a href=\"guide:ski-fitness-plan\">preparazione atletica per lo sci</a>, e <a href=\"guide:ski-training-for-beginners\">l'allenamento per lo sci per principianti</a> ripassa le basi passo dopo passo. Se hai solo una settimana, leggi gli <a href=\"guide:ski-exercises-at-home\">esercizi di presciistica a casa</a> e scegli cinque movimenti.</p>\n\n<h2>Attrezzatura: cosa noleggiare e cosa portare</h2>\n<p>Noleggiare è normale per una prima vacanza. Contano la calzata e la regolazione:</p>\n<ul>\n<li><strong>Scarponi.</strong> Devono essere aderenti, senza che il tallone si sollevi, e le dita devono toccare la punta solo in piedi e dritto. Di' al tecnico che sei principiante. Scarponi dolorosi chiudono la tua giornata a mezzogiorno.</li>\n<li><strong>Attacchi.</strong> Il negozio imposta i valori di sgancio in base a peso, altezza, età e livello. Dai informazioni sincere e non chiedere un valore più alto per sentirti più sicuro.</li>\n<li><strong>Casco.</strong> La maggior parte dei noleggi li offre. Indossane uno.</li>\n<li><strong>Abbigliamento.</strong> Tre strati: uno leggero a contatto con la pelle, uno intermedio caldo, un guscio impermeabile. Il cotone si bagna e resta freddo.</li>\n<li><strong>Piccole cose.</strong> Guanti o muffole (porta un paio di ricambio), maschera per la luce piatta, protezione solare per il viso, una piccola bottiglia d'acqua, un burrocacao.</li>\n</ul>\n\n<h2>Un piano sensato di tre giorni</h2>\n<p><strong>Giorno 1: scuola di sci, breve.</strong> Prenota una lezione di gruppo o un'ora privata all'inizio. Impara a camminare con gli scarponi, a fermarti, a rialzarti dopo una caduta e a usare l'impianto per principianti. Fermati dopo tre-quattro ore anche se ti senti benissimo: i principianti stanchi cadono di più. La ricerca citata sui primi giorni è una ragione per tenere breve il primo giorno<sup>[1]</sup>, e in un'indagine su 588 sciatori con lesione del legamento crociato circa un terzo si era infortunato il primo giorno sulla neve<sup>[4]</sup>.</p>\n<p><strong>Giorno 2: ripeti e amplia.</strong> Esercitati sullo stesso pendio facile, poi prova una pista blu un po' più lunga. Le gambe faranno male: è normale. Leggi <a href=\"guide:sore-after-skiing\">cosa aiuta contro i dolori muscolari dopo lo sci</a> per la routine serale e valuta di prendere ancora una lezione.</p>\n<p><strong>Giorno 3: collega le curve.</strong> A questo punto il corpo si è un po' adattato. Collega curve facili, fermati a bordo pista e guarda a monte prima di ripartire. Non seguire gli amici sulle piste rosse prima di riuscire a fermarti con sicurezza su una blu.</p>\n<p>Per quanti giorni abbiano senso in un intero inverno, vedi <a href=\"guide:how-many-ski-days-per-season\">quanti giorni di sci a stagione</a>.</p>\n\n<h2>Le regole della pista che ti proteggono</h2>\n<ul>\n<li>Fermati solo a bordo pista o dove ti si vede da monte, mai subito sotto un dosso.</li>\n<li>Chi sta davanti ha la precedenza. Guarda a monte prima di partire.</li>\n<li>Regola il ritmo sul più lento del gruppo, non sul più veloce.</li>\n<li>Scegli le piste per colore e difficoltà, non in base a chi segui.</li>\n<li>Bevi acqua. Aria fredda e quota ti disidratano senza farti sentire sete.</li>\n</ul>\n\n<h2>Quando fermarsi e quando andare dal medico</h2>\n<p>Ferma la giornata se le gambe tremano, se hai così freddo da tremare o se continui a fare lo stesso errore. Dopo una caduta, rivolgiti al soccorso piste o a un medico in caso di dolore acuto, di un'articolazione che si gonfia o sembra instabile, di un colpo alla testa o di formicolio. Non provare a sciare via un infortunio. Le lesioni al ginocchio sono comuni tra gli sciatori e una diagnosi precoce aiuta il recupero.</p>\n\n<h2>Conta i tuoi giorni con SnowStreak</h2>\n<p>Se vuoi un modo strutturato per preparare le gambe, <a href=\"app\">SnowStreak</a> offre un programma pre-stagione di sei settimane con tre sessioni a settimana a corpo libero, da 17 a 22 minuti ciascuna, con un livello principiante. È un'app per iPhone, gratuita per iniziare, con un conto alla rovescia fino al primo giorno di sci; servono solo spazio sul pavimento e un muro. Prepara le gambe, non sostituisce una lezione.</p>",
+      "faq": [
+        {
+          "q": "Quanto tempo serve per prepararsi alla prima vacanza sugli sci?",
+          "a": "Quattro-sei settimane con tre brevi sessioni a settimana sono un buon obiettivo. Anche due settimane di squat, equilibrio e camminate aiutano."
+        },
+        {
+          "q": "Un principiante dovrebbe prendere lezioni di sci?",
+          "a": "Sì. Imparare a fermarsi e a cadere in sicurezza vale più di qualsiasi esercizio. Tieni breve il primo giorno, con o senza lezione."
+        },
+        {
+          "q": "Meglio noleggiare o comprare l'attrezzatura?",
+          "a": "Noleggia per la prima vacanza. Assicurati che gli scarponi calzino bene e che il negozio regoli gli attacchi su peso, altezza e livello reali."
+        },
+        {
+          "q": "Che forma fisica serve per iniziare a sciare?",
+          "a": "Gambe che reggano una posizione a ginocchia piegate, un po' di equilibrio su una gamba e cardio di base. Non serve essere un atleta."
+        },
+        {
+          "q": "Perché le gambe fanno così male dopo il primo giorno?",
+          "a": "Sugli sci le cosce frenano sotto carico, e questo causa dolore muscolare per uno o due giorni. È comune e di solito passa senza trattamento."
+        },
+        {
+          "q": "Quando andare dal medico dopo una caduta?",
+          "a": "Con dolore acuto, gonfiore, un'articolazione instabile, formicolio o un colpo alla testa, fatti visitare prima di sciare di nuovo."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Langran M, Selvaraj S. Increased injury risk among first-day skiers, snowboarders, and skiboarders. American Journal of Sports Medicine, 2004.",
+          "url": "https://abdn.elsevierpure.com/en/publications/increased-injury-risk-among-first-day-skiers-snowboarders-and-ski"
+        },
+        {
+          "label": "Laaksonen J, Vaajala M, Liukkonen R, et al. Epidemiology of Alpine Skiing and Snowboarding Injuries: A Systematic Review and Meta-Analysis. Health Science Reports, 2026.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42741520/"
+        },
+        {
+          "label": "Xinqi S, Dawei L, Wei J, et al. Epidemiological characteristics of skiing injuries: a retrospective study based on the 2024-2025 ski season. Frontiers in Sports and Active Living, 2026.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42222177/"
+        },
+        {
+          "label": "Ruedl G, Helle K, Tecklenburg K, et al. Impact of self-reported fatigue on ACL injuries in alpine skiing: a sex comparison. Sportverletzung Sportschaden, 2015.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26689190/"
+        }
+      ]
+    },
+    "es": {
+      "title": "Primer viaje de esquí para principiantes: cómo prepararte",
+      "description": "¿Primera vez esquiando? Qué hacer antes de ir, qué equipo alquilar, un plan de tres días y qué dice la investigación sobre el riesgo de lesión el primer día.",
+      "headline": "Primer viaje de esquí para principiantes: cómo prepararte",
+      "lede": "Prepara tu primer viaje de esquí con cuatro a seis semanas de sentadillas, equilibrio y cardio suave, alquila botas bien ajustadas y un casco, y mantén corto el primer día. El primer día es el más arriesgado: un estudio halló que los esquiadores del primer día se lesionaban a una tasa unas 2,2 veces superior a la esperada.",
+      "body_html": "<p>Un primer viaje de esquí tiene muchas novedades: botas que sobre el cemento parecen cubos, un remonte que nunca has usado y un grupo que espera que lo disfrutes. Casi todo lo que sale mal es predecible y se evita con unas semanas de preparación y decisiones sensatas el primer día. Esta guía explica qué hacer antes de salir, qué llevar, cómo pasar los tres primeros días y qué dice la investigación sobre las lesiones de los principiantes.</p>\n\n<h2>¿Qué riesgo tiene el primer día de esquí?</h2>\n<p>El esquí no es el deporte más peligroso, pero el primer día es el más arriesgado. Un estudio de casos y controles en las tres mayores estaciones de Escocia durante tres temporadas mostró que las personas en su primer día representaban entre los lesionados unas 2,2 veces los casos esperados. Los factores de riesgo independientes eran tener menos de 17 o más de 26 años, hacer snowboard, recibir clases con un profesional y usar equipo alquilado o prestado<sup>[1]</sup>. Los autores recomendaban informarse sobre el equipo y la protección y mantenerse dentro de las propias capacidades.</p>\n<p>Hay que tener cuidado con dos puntos. Primero, el dato sobre las clases no significa que debas saltártelas. Los autores no lo explicaban, y una lectura probable es que los principiantes que toman clases son más ambiciosos, esquían más horas o llegan antes a terreno más difícil. Segundo, esas cifras proceden de una región y un periodo. Aun así, el patrón es coherente con otros trabajos: una revisión de 2026 sobre unos 408 millones de jornadas de esquiadores aficionados halló que las caídas son la causa principal de lesión y que las extremidades son la zona más afectada<sup>[2]</sup>, y una serie hospitalaria de China mostró que los principiantes tenían con mucha más frecuencia lesiones en la pierna que en el miembro superior (odds ratio 4,58)<sup>[3]</sup>. Los principiantes se caen, y sus piernas lo pagan.</p>\n<p>La conclusión no es tener miedo. Es preparar las piernas y el plan para las caídas, el cansancio y el progreso lento.</p>\n\n<h2>Prepara el cuerpo de cuatro a seis semanas antes</h2>\n<p>No hace falta ser deportista. Necesitas piernas que aguanten unos minutos una postura con las rodillas flexionadas y equilibrio sobre un pie. Si no haces nada más, haz estas tres cosas durante cuatro a seis semanas:</p>\n<ul>\n<li><strong>Sentadillas y sentadilla en pared.</strong> Empieza con 20 a 30 segundos de mantenimiento y suma unos segundos cada semana. La postura es la misma que usarás con los esquís.</li>\n<li><strong>Equilibrio a una pierna.</strong> 30 segundos por pierna, más sobre una toalla doblada. Mira los <a href=\"guide:ski-balance-exercises\">ejercicios de equilibrio para esquiar</a>.</li>\n<li><strong>Algo de cardio.</strong> Caminar rápido, bici o escaleras durante 20 a 30 minutos, tres veces por semana. Los días de esquí son largos y la cola del remonte no descansa.</li>\n</ul>\n<p>El plan completo está en la <a href=\"guide:ski-fitness-plan\">preparación física para esquiar</a>, y el <a href=\"guide:ski-training-for-beginners\">entrenamiento de esquí para principiantes</a> repasa lo básico paso a paso. Si solo tienes una semana, lee los <a href=\"guide:ski-exercises-at-home\">ejercicios para esquiar en casa</a> y elige cinco movimientos.</p>\n\n<h2>Equipo: qué alquilar y qué llevar</h2>\n<p>Alquilar es lo normal en un primer viaje. Lo importante es el ajuste y la configuración:</p>\n<ul>\n<li><strong>Botas.</strong> Deben quedar ajustadas sin que el talón se levante, y los dedos solo deben tocar la punta cuando estás de pie y recto. Dile al técnico que eres principiante. Unas botas que duelen acaban con tu día a mediodía.</li>\n<li><strong>Fijaciones.</strong> La tienda ajusta los valores de liberación según tu peso, altura, edad y nivel. Da datos sinceros y no pidas un valor más alto para sentirte más seguro.</li>\n<li><strong>Casco.</strong> La mayoría de los alquileres lo ofrecen. Úsalo.</li>\n<li><strong>Ropa.</strong> Tres capas: una base fina, una capa intermedia que abrigue y una cubierta impermeable. El algodón se moja y se queda frío.</li>\n<li><strong>Pequeños detalles.</strong> Guantes o manoplas (lleva un par de repuesto), gafas para la luz plana, protección solar para la cara, una botella de agua pequeña y un bálsamo labial.</li>\n</ul>\n\n<h2>Un plan sensato de tres días</h2>\n<p><strong>Día 1: escuela de esquí, corto.</strong> Reserva una clase en grupo o una hora particular al empezar. Aprende a caminar con las botas, a frenar, a levantarte tras una caída y a usar el remonte para principiantes. Para después de tres o cuatro horas aunque te sientas genial: los principiantes cansados se caen más. La investigación citada sobre los primeros días es una razón para hacer un primer día corto<sup>[1]</sup>, y en una encuesta a 588 esquiadores con rotura del ligamento cruzado anterior, alrededor de un tercio se lesionó el primer día en la nieve<sup>[4]</sup>.</p>\n<p><strong>Día 2: repetir y ampliar.</strong> Practica en la misma pendiente fácil y luego prueba una pista verde algo más larga. Tendrás agujetas: es normal. Lee <a href=\"guide:sore-after-skiing\">qué ayuda con las agujetas después de esquiar</a> para la rutina de la tarde y valora volver a dar una clase.</p>\n<p><strong>Día 3: enlazar giros.</strong> Para entonces tu cuerpo se ha adaptado un poco. Enlaza giros fáciles, párate en el borde de la pista y mira cuesta arriba antes de arrancar de nuevo. No sigas a tus amigos a pistas rojas antes de poder frenar con seguridad en una verde.</p>\n<p>Para saber cuántos días tienen sentido en un invierno entero, mira <a href=\"guide:how-many-ski-days-per-season\">cuántos días esquiar por temporada</a>.</p>\n\n<h2>Normas de pista que te protegen</h2>\n<ul>\n<li>Párate solo en el borde o donde te vean desde arriba, nunca justo debajo de un cambio de rasante.</li>\n<li>El esquiador de delante tiene preferencia. Mira cuesta arriba antes de salir.</li>\n<li>Ajusta el ritmo al miembro más lento del grupo, no al más rápido.</li>\n<li>Elige las pistas por color y dificultad, no por a quién sigues.</li>\n<li>Bebe agua. El aire frío y la altitud te deshidratan sin que notes sed.</li>\n</ul>\n\n<h2>Cuándo parar y cuándo ir al médico</h2>\n<p>Para por hoy si te tiemblan las piernas, si tienes tanto frío que tiritas o si repites una y otra vez el mismo error. Tras una caída, acude a los servicios de pista o a un médico si tienes dolor agudo, una articulación que se hincha o se nota inestable, un golpe en la cabeza o entumecimiento. No intentes esquiar con una lesión. Las lesiones de rodilla son frecuentes entre esquiadores y un diagnóstico temprano ayuda a la recuperación.</p>\n\n<h2>Cuenta tus días con SnowStreak</h2>\n<p>Si quieres una forma estructurada de preparar las piernas, <a href=\"app\">SnowStreak</a> ofrece un programa de pretemporada de seis semanas con tres sesiones por semana con el peso corporal, de 17 a 22 minutos cada una, con nivel para principiantes. Es una app para iPhone, gratis para empezar, con una cuenta atrás hasta tu primer día de esquí; solo necesitas espacio en el suelo y una pared. Prepara tus piernas, pero no sustituye a una clase.</p>",
+      "faq": [
+        {
+          "q": "¿Cuánto tiempo debo prepararme para mi primer viaje de esquí?",
+          "a": "Cuatro a seis semanas con tres sesiones cortas por semana es un buen objetivo. Incluso dos semanas de sentadillas, equilibrio y caminatas ayudan."
+        },
+        {
+          "q": "¿Debería un principiante tomar clases de esquí?",
+          "a": "Sí. Aprender a frenar y a caerse con seguridad vale más que cualquier ejercicio. Mantén corto el primer día, tengas clase o no."
+        },
+        {
+          "q": "¿Alquilo o compro el equipo?",
+          "a": "Alquila para el primer viaje. Asegúrate de que las botas te quedan bien y de que la tienda ajusta las fijaciones a tu peso, altura y nivel reales."
+        },
+        {
+          "q": "¿Qué condición física necesito para empezar a esquiar?",
+          "a": "Piernas que aguanten una postura con las rodillas flexionadas, algo de equilibrio a una pierna y cardio básico. No hace falta ser deportista."
+        },
+        {
+          "q": "¿Por qué me duelen tanto las piernas después del primer día?",
+          "a": "Al esquiar los muslos frenan bajo carga, lo que causa agujetas durante uno o dos días. Es habitual y suele desaparecer sin tratamiento."
+        },
+        {
+          "q": "¿Cuándo debo ir al médico tras una caída?",
+          "a": "Con dolor agudo, hinchazón, una articulación inestable, entumecimiento o cualquier golpe en la cabeza, hazte revisar antes de volver a esquiar."
         }
       ],
       "sources": [
