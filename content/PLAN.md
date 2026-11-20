@@ -39,3 +39,20 @@ Writer rules: `content/README.md`. Every guide links to the hub and at least 2 o
 |---|---|---|---|---|---|
 | all 8 | written 2026-11-02 | written | written | written | written |
 | round-2 30 topics | written 2026-11-04 | written 2026-11-12 | written 2026-11-12 | written 2026-11-12 | written 2026-11-12 |
+
+## Round 3 — trip planning (MEN-1040, en only)
+
+| id | Intent | Seed keywords (en) | App tie-in | Links to |
+|---|---|---|---|---|
+| `best-time-to-ski` | when to ski, month by month | best time to ski, best month to ski | countdown, 6-week plan | early-season, spring, plan |
+| `early-season-ski-resorts` | where to ski Nov/Dec | early season ski resorts, ski in November | countdown, 6-week plan | best-time, when-to-start |
+| `spring-skiing-best-resorts` | where to ski Mar/Apr | spring skiing best resorts, ski in April | ski day log | best-time, early-season |
+| `best-ski-resorts-europe` | best resorts by country | best ski resorts in Europe | ski day log, cost per day | cheap, family, beginners |
+| `best-ski-resorts-for-beginners` | beginner-friendly resorts | best ski resorts for beginners | beginner level | beginner-first-ski-trip |
+| `best-family-ski-resorts` | family resorts + criteria | best family ski resorts | beginner level, log | beginners, europe |
+| `cheap-ski-resorts-europe` | budget destinations, no prices | cheap ski resorts Europe | cost per day | ski-cost-per-day, ski-season-budget |
+| `ski-in-ski-out-hotels` | where to stay, judge "ski-in" claims | ski in ski out hotels, where to stay ski trip | cost per day | europe, cheap |
+
+| id | en | de | fr | it | es |
+|---|---|---|---|---|---|
+| round-3 8 topics | written 2026-11-20 | follow-up | follow-up | follow-up | follow-up |
