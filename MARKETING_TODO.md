@@ -27,3 +27,4 @@
 | 2026-11-04 | Guides round 2 (MEN-131): 30 new topics, English only (38 total en). build.py: de/fr/it/es optional per guide | ecc:seo, ecc:article-writing, ecc:brand-voice | `--check` clean on all 38. Follow-up: translate the 30 to de/fr/it/es |
 | 2026-11-12 | Guides round 2 translated (MEN-133): 30 topics x de/fr/it/es (120 pages). build.py: duplicate-slug guard per lang | ecc:seo, ecc:article-writing, ecc:brand-voice | `--check` 0 warnings on all 38, build 202 pages, sitemap +120. 390px render not done |
 | 2026-11-20 | Guides round 3 (MEN-1040): 8 en trip-planning guides | ecc:seo, ecc:article-writing, ecc:brand-voice, ecc:market-research | `--check` 0 warnings on all 8; translations MEN-1047 |
+| 2026-11-22 | Guides round 3 translated (MEN-1081): 5 of 8 trip-planning topics x de/fr/it/es (20 pages). Remaining 3: MEN-1047 | ecc:seo, ecc:article-writing, ecc:brand-voice | `--check` 0 warnings on all 5, build 230 pages |

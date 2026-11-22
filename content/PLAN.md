@@ -55,4 +55,7 @@ Writer rules: `content/README.md`. Every guide links to the hub and at least 2 o
 
 | id | en | de | fr | it | es |
 |---|---|---|---|---|---|
-| round-3 8 topics | written 2026-11-20 | follow-up | follow-up | follow-up | follow-up |
+| round-3: best-time-to-ski, early-season, spring, europe, beginners | written 2026-11-20 | written 2026-11-22 | written 2026-11-22 | written 2026-11-22 | written 2026-11-22 |
+| round-3: best-family, cheap-europe, ski-in-ski-out | written 2026-11-20 | follow-up (MEN-1047) | follow-up | follow-up | follow-up |
+
+Note: beginners guide (de/fr/it/es) mentions family resorts unlinked until best-family-ski-resorts is translated; link it then.
