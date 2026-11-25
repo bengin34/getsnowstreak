@@ -251,6 +251,7 @@ def build_home(lang, t, tpl, block=""):
     canonical = URL + home_path(lang)
     v.update(
         url=URL, canonical=canonical, home=home_path(lang), ios_url=SITE["ios_url"],
+        screens="/assets/img/screens" if lang == "en" else f"/assets/img/screens/{lang}",
         lang_code=lang.upper(), guides_block=block, ridges=ridges("night-ridges"), ridges_day=ridges("day-ridges"),
         ridges_top=ridges("top-ridges"), store_buttons=store_buttons(t),
         hreflang="\n".join([f'<link rel="alternate" hreflang="{l}" href="{URL}{home_path(l)}" />' for l in LANGS]
