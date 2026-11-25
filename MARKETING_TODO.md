@@ -11,7 +11,7 @@
 - [ ] Replace store button with Apple's official "Download on the App Store" badge artwork if desired.
 
 ## Next
-- [ ] Localized screens (only en-US raw captures exist; DE/FR/IT/ES pages show English UI).
+- [x] Localized screens: de/fr/it/es home use `assets/img/screens/<lang>/` sim captures (MEN-1164, 2026-11-26). FR home captured at text size small (app bug MEN-1168).
 - [ ] Search Console + Bing Webmaster after domain; submit sitemap.
 - [x] Content: 8 guides x 5 langs (`content/PLAN.md`), hub + cluster, guides index per language, home guides block (2026-11-02).
 - [x] Guides round 2: 30 new en guides (2026-11-04). Translated to de/fr/it/es (MEN-133, 2026-11-12). Open: refresh pass prices each autumn.
@@ -29,3 +29,4 @@
 | 2026-11-20 | Guides round 3 (MEN-1040): 8 en trip-planning guides | ecc:seo, ecc:article-writing, ecc:brand-voice, ecc:market-research | `--check` 0 warnings on all 8; translations MEN-1047 |
 | 2026-11-22 | Guides round 3 translated (MEN-1081): 5 of 8 trip-planning topics x de/fr/it/es (20 pages). Remaining 3: MEN-1047 | ecc:seo, ecc:article-writing, ecc:brand-voice | `--check` 0 warnings on all 5, build 230 pages |
 | 2026-11-25 | SEO health (MEN-1147): sitemap lastmod from guide `updated`, OG tags on privacy/support/404. `seo/health-log.md` added | ecc:seo | crawl 230 URLs, 0 issues; GSC no access |
+| 2026-11-26 | Localized app screenshots (MEN-1164): 5 screens x de/fr/it/es, alt text aligned to app strings | ecc:seo, ecc:frontend-design-direction, ecc:brand-voice, impeccable | real sim captures, premium unlocked in throwaway build only |
