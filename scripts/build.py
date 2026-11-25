@@ -14,7 +14,6 @@ import json
 import re
 import shutil
 import sys
-from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -304,7 +303,7 @@ def main():
     home_tpl = (ROOT / "templates/home.html").read_text()
     page_tpl = (ROOT / "templates/page.html").read_text()
     en = json.loads((ROOT / "i18n/en.json").read_text())
-    urls = []
+    urls = {}  # url -> lastmod (None = omit: no real change date)
     ts = {}
     for lang in LANGS:
         t = ts[lang] = json.loads((ROOT / f"i18n/{lang}.json").read_text())
@@ -316,13 +315,14 @@ def main():
     for lang in LANGS:
         write(f"{home_path(lang).strip('/')}/index.html".lstrip("/"),
               build_home(lang, ts[lang], home_tpl, guides_block(lang, ts[lang], [g for g in guides if lang in g["langs"]], ts)))
-        urls.append(URL + home_path(lang))
         gl = [g for g in guides if lang in g["langs"]]
+        newest = max((g["updated"] for g in gl), default=None)
+        urls[URL + home_path(lang)] = newest
         if gl:
             pages = [build_guides_index(lang, ts, gl, guide_tpl)] + [build_guide(g, lang, ts, gl, guide_tpl) for g in gl]
-            for path, text in pages:
+            for (path, text), mod in zip(pages, [newest] + [g["updated"] for g in gl]):
                 write(path.strip("/") + "/index.html", text)
-                urls.append(URL + path)
+                urls[URL + path] = mod
 
     pages = {
         "privacy": ("Privacy policy", "How SnowStreak handles your data: no account, no analytics, no location tracking. Everything stays on your device."),
@@ -331,15 +331,15 @@ def main():
     for slug, (title, desc) in pages.items():
         body = fill((ROOT / f"templates/pages/{slug}.html").read_text(), SITE, slug)
         write(f"{slug}/index.html", fill(page_tpl, {"title": title, "description": desc, "canonical": f"{URL}/{slug}/",
-                                                     "ios_url": SITE["ios_url"], "body": body}, slug))
-        urls.append(f"{URL}/{slug}/")
+                                                     "ios_url": SITE["ios_url"], "url": URL, "body": body}, slug))
+        urls[f"{URL}/{slug}/"] = None
 
     write("404.html", fill(page_tpl, {"title": "Page not found", "description": "This page does not exist.",
-                                      "canonical": URL + "/", "ios_url": SITE["ios_url"],
+                                      "canonical": URL + "/", "ios_url": SITE["ios_url"], "url": URL,
                                       "body": '<h1>Off piste.</h1><p>This page does not exist. <a href="/">Back to the start</a>.</p>'}, "404"))
-    today = date.today().isoformat()
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-          + "".join(f"  <url><loc>{u}</loc><lastmod>{today}</lastmod></url>\n" for u in urls) + "</urlset>\n")
+          + "".join(f"  <url><loc>{u}</loc>" + (f"<lastmod>{m}</lastmod>" if m else "") + "</url>\n" for u, m in urls.items())
+          + "</urlset>\n")
     write("robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {URL}/sitemap.xml\n")
     write("CNAME", URL.split("://", 1)[1] + "\n")
     print(f"built {len(urls)} pages for {URL}")
