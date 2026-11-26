@@ -15,7 +15,7 @@
 - [ ] Search Console + Bing Webmaster after domain; submit sitemap.
 - [x] Content: 8 guides x 5 langs (`content/PLAN.md`), hub + cluster, guides index per language, home guides block (2026-11-02).
 - [x] Guides round 2: 30 new en guides (2026-11-04). Translated to de/fr/it/es (MEN-133, 2026-11-12). Open: refresh pass prices each autumn.
-- [x] Guides round 3 (MEN-1040): 8 en trip-planning guides (when/where/where to stay), 2026-11-20. Translation follow-up: MEN-1047.
+- [x] Guides round 3 (MEN-1040): 8 en trip-planning guides (when/where/where to stay), 2026-11-20. Translated to de/fr/it/es (MEN-1081 + MEN-1047, 2026-11-26).
 - [ ] Add nl, pl, cs, sv, nb, fi (app supports them).
 
 ## Run log
@@ -30,3 +30,4 @@
 | 2026-11-22 | Guides round 3 translated (MEN-1081): 5 of 8 trip-planning topics x de/fr/it/es (20 pages). Remaining 3: MEN-1047 | ecc:seo, ecc:article-writing, ecc:brand-voice | `--check` 0 warnings on all 5, build 230 pages |
 | 2026-11-25 | SEO health (MEN-1147): sitemap lastmod from guide `updated`, OG tags on privacy/support/404. `seo/health-log.md` added | ecc:seo | crawl 230 URLs, 0 issues; GSC no access |
 | 2026-11-26 | Localized app screenshots (MEN-1170, retry of MEN-1164): 5 screens x de/fr/it/es, alt text aligned to app strings | ecc:seo, ecc:frontend-design-direction, ecc:brand-voice, impeccable | real sim captures, premium unlocked in throwaway build only |
+| 2026-11-26 | Guides round 3 finished (MEN-1047): best-family, cheap-europe, ski-in-ski-out x de/fr/it/es (12 pages); beginners guide now links the family guide | ecc:seo, ecc:article-writing, ecc:brand-voice | `--check` 0 warnings, build 242 pages, selftest pass |
