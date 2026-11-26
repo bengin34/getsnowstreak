@@ -100,7 +100,7 @@ section { position: relative; padding: clamp(72px, 10vw, 128px) 0; }
 
 /* Split sections */
 .split { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(40px, 6vw, 90px); align-items: center; }
-.duo { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; max-width: 560px; justify-self: center; }
+.duo { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; max-width: 560px; justify-self: center; align-items: start; }
 .duo .phone:nth-child(2) { margin-top: 70px; }
 .points { list-style: none; padding: 0; margin: 34px 0 0; counter-reset: p; display: grid; gap: 22px; }
 .points li { display: grid; grid-template-columns: 44px 1fr; column-gap: 14px; counter-increment: p; }
