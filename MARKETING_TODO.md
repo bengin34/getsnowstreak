@@ -16,7 +16,8 @@
 - [x] Content: 8 guides x 5 langs (`content/PLAN.md`), hub + cluster, guides index per language, home guides block (2026-11-02).
 - [x] Guides round 2: 30 new en guides (2026-11-04). Translated to de/fr/it/es (MEN-133, 2026-11-12). Open: refresh pass prices each autumn.
 - [x] Guides round 3 (MEN-1040): 8 en trip-planning guides (when/where/where to stay), 2026-11-20. Translated to de/fr/it/es (MEN-1081 + MEN-1047, 2026-11-26).
-- [ ] Add nl, pl, cs, sv, nb, fi (app supports them).
+- [x] nl, pl, sv home pages with localized screens (MEN-1487, 2026-11-28). No guides in these three yet.
+- [ ] Add cs, nb, fi (app supports them).
 
 ## Run log
 | Date | Work | Skills | Notes |
@@ -31,3 +32,4 @@
 | 2026-11-25 | SEO health (MEN-1147): sitemap lastmod from guide `updated`, OG tags on privacy/support/404. `seo/health-log.md` added | ecc:seo | crawl 230 URLs, 0 issues; GSC no access |
 | 2026-11-26 | Localized app screenshots (MEN-1170, retry of MEN-1164): 5 screens x de/fr/it/es, alt text aligned to app strings | ecc:seo, ecc:frontend-design-direction, ecc:brand-voice, impeccable | real sim captures, premium unlocked in throwaway build only |
 | 2026-11-26 | Guides round 3 finished (MEN-1047): best-family, cheap-europe, ski-in-ski-out x de/fr/it/es (12 pages); beginners guide now links the family guide | ecc:seo, ecc:article-writing, ecc:brand-voice | `--check` 0 warnings, build 242 pages, selftest pass |
+| 2026-11-28 | nl, pl, sv home pages + 5 localized screens each (MEN-1487); guides index hreflang limited to languages with guides | ecc:seo, ecc:article-writing, ecc:brand-voice | build 245 pages, selftest pass, 0 broken links from new pages, 390px no overflow |
