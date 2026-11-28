@@ -20,7 +20,8 @@ ROOT = Path(__file__).resolve().parent.parent
 SITE = json.loads((ROOT / "site.json").read_text())
 URL = SITE["url"].rstrip("/")
 LANGS = SITE["langs"]
-NAMES = {"en": "English", "de": "Deutsch", "fr": "Français", "it": "Italiano", "es": "Español"}
+NAMES = {"en": "English", "de": "Deutsch", "fr": "Français", "it": "Italiano", "es": "Español",
+         "nl": "Nederlands", "pl": "Polski", "sv": "Svenska"}
 RAW = {"hero_h1"}  # keys whose value is trusted inline HTML
 
 RIDGE_FAR = "M0 220V120L120 70L210 105L330 28L430 90L520 60L640 118L760 38L880 100L980 55L1100 110L1220 32L1330 85L1440 60V220Z"
@@ -242,7 +243,7 @@ def build_guides_index(lang, ts, guides, tpl):
                     f'<span>{html.escape(g["langs"][lang]["description"])}</span></a></li>' for g in guides)
     main = f'<h1>{html.escape(t["guides_h1"])}</h1><p class="lede">{html.escape(t["guides_lede"])}</p><ul class="cards">{items}</ul>'
     schema = [crumbs([(t["crumb_home"], home_path(lang)), (t["guides_nav"], path)])]
-    alternates = {l: guides_dir(l, ts[l]) for l in LANGS}
+    alternates = {l: guides_dir(l, ts[l]) for l in LANGS if any(l in g["langs"] for g in guides)}
     return path, guide_chrome(lang, t, ts, URL + path, alternates, t["guides_title"], t["guides_description"], main, schema, "website", tpl)
 
 

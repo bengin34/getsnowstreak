@@ -17,7 +17,7 @@ Static marketing site for the SnowStreak iOS app (`APPS/snowstreak`). Plain HTML
 
 ## Rules
 
-- Languages: en (root), de, fr, it, es. Every home string exists in all 5. Legal pages are EN only.
+- Languages: en (root), de, fr, it, es, nl, pl, sv. Every home string exists in all 8. Guides exist only for en/de/fr/it/es. Legal pages are EN only.
 - Palette and fonts mirror the app (`APPS/snowstreak/src/theme/index.ts`, Barlow Condensed + Manrope). Fonts are self-hosted (no Google Fonts: GDPR).
 - Screens in `assets/img/screens/` come from `APPS/snowstreak/assets/app-store/source/en-US` (raw simulator captures), converted with `cwebp -resize 390|780`.
 - Claims must match the app: free tier = week 1 + 5 ski days (`src/engine/freeTier.ts`), yearly with 7-day trial or lifetime. No prices on the site.
