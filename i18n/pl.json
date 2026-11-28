@@ -24,6 +24,7 @@
   "count_label": "Twój pierwszy dzień na stoku",
   "count_unit": "dni do pierwszego zjazdu",
   "js": {
+    "unit_one": "dzień do pierwszego zjazdu",
     "ok": "Zacznij sześciotygodniowy program najpóźniej <b>{date}</b>, a na stok dotrzesz w formie.",
     "late": "Zostało mniej niż sześć tygodni. Zacznij w tym tygodniu, a przed pierwszym wyciągiem zrobisz jeszcze <b>{weeks} z 6 tygodni</b>.",
     "now": "To już niedługo. Nawet kilka sesji to więcej niż wyjazd bez przygotowania. Zacznij dziś.",

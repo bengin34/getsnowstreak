@@ -117,11 +117,13 @@ if (typeof document !== 'undefined') {
   if (input) {
     const iso = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
     input.value = iso(defaultFirstDay(today));
+    const unit = document.querySelector('.count-num span'), units = unit.textContent;
     const render = () => {
       const [y, m, d] = input.value.split('-').map(Number);
       const days = y ? daysUntil(new Date(y, m - 1, d), today) : NaN;
       const msg = document.getElementById('count-msg');
       document.getElementById('count-days').textContent = Number.isFinite(days) && days >= 0 ? days : '–';
+      unit.textContent = (days === 1 && t.unit_one) || units; // set only where 1 needs its own form (pl)
       if (!Number.isFinite(days)) msg.textContent = '';
       else if (days < 0) msg.innerHTML = t.past;
       else if (days >= PROGRAM_WEEKS * 7) {
